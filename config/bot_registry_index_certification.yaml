@@ -1,0 +1,29 @@
+# 📘 Fichier bot_registry_index_certification.yaml — index YAML des éléments de certification finale
+# 📘 Index de certification finale — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-10"
+signataire: "Eric"
+
+blocs_certification:
+  - bot_registry_certificat.yaml
+  - bot_registry_attestation.yaml
+  - bot_registry_attestation_publique.md
+  - bot_registry_certification_communautaire.yaml
+  - bot_registry_certification_communautaire.md
+  - bot_registry_backtest_final.md
+  - onboarding_certification_summary.mp3
+  - onboarding_attestation_summary.mp3
+  - onboarding_certification_communautaire_summary.mp3
+
+pages_certification:
+  - 16_🧾_Certification_Final.py
+  - 22_📜_Attestation_Projet.py
+  - 33_🏅_Certification_Communautaire.py
+
+usage:
+  - certification finale
+  - certification communautaire
+  - documentation publique
+  - audit collaboratif
+  - archivage final

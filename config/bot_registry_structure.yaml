@@ -1,0 +1,29 @@
+# 🧬 Fichier bot_registry_structure.yaml — arborescence des blocs activés
+# 🧬 Arborescence des blocs activés — Private Assistant
+
+onboarding:
+  - 10_🧠_Synthèse_Onboarding.py
+  - 15_📘_Contrats_Vocaux.py
+
+certification:
+  - 16_🧾_Certification_Final.py
+  - 22_📜_Attestation_Projet.py
+
+diffusion:
+  - 17_📢_Diffusion_Projet.py
+  - 18_🌐_Partage_Externe.py
+  - 19_📤_Soumission_Projet.py
+
+cloture:
+  - 20_📁_Historique_Projet.py
+  - 21_📦_Export_Final.py
+  - 30_📤_Export_Archive.py
+
+navigation:
+  - 23_🧭_Navigation_Projet.py
+  - 24_🧬_Structure_Projet.py
+  - 27_🧭_Navigation_Transversale.py
+
+mémoire:
+  - 25_🧠_Mémoire_Projet.py
+  - 26_🗂️_Index_Manifestes.py

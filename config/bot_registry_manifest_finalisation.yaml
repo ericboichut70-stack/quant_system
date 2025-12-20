@@ -1,0 +1,51 @@
+# ✅ Finalisation du registre — Private Assistant
+# 📘 Acte la fin du cycle de clôture, test et diffusion du bot Private Assistant.
+
+date_finalisation: "14 novembre 2025"
+signataire: "Eric"
+
+statut:
+  registre: "verrouillé"
+  artefacts: "validés"
+  diffusion: "enclenchée"
+  auditabilité: "assurée"
+  pédagogie: "activée"
+
+phases_clôturées:
+  - clôture_officielle
+  - lancement_circuit
+  - test_registry
+  - diffusion_pédagogique
+
+artefacts_validés:
+  documentation_md:
+    - bot_registry_manifest_final_closure.md
+    - bot_registry_manifest_lancement_circuit.md
+    - bot_registry_test_report.md
+    - bot_registry_manifest_diffusion_pedagogique.md
+    - bot_registry_banner_cloture_officielle.md
+    - bot_registry_banner_lancement_circuit.md
+    - bot_registry_banner_test_report.md
+    - bot_registry_banner_diffusion_pedagogique.md
+  scripts_python:
+    - 39_🔊_Clôture_Officielle.py
+    - 40_🚀_Lancement_Circuit.py
+    - 41_✅_Rapport_Test_Registry.py
+    - 42_📡_Diffusion_Pédagogique.py
+    - test_bot_registry.py
+  audio_mp3:
+    - onboarding_manifest_final_closure.mp3
+    - onboarding_manifest_lancement_circuit.mp3
+    - onboarding_manifest_diffusion_pedagogique.mp3
+  bannières_visuelles:
+    - banner_cloture_officielle.png
+    - banner_lancement_circuit.png
+    - banner_test_report.png
+    - banner_diffusion_pedagogique.png
+
+index_ciblés:
+  - bot_registry_index_manifest_final.yaml
+  - bot_registry_index_cloture_finale.yaml
+  - bot_registry_index_archive.yaml
+
+verrouillage: "intégral"

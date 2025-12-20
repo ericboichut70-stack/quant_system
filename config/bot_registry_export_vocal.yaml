@@ -1,0 +1,19 @@
+# 📦 Index YAML des fichiers audio exportés
+# 📦 Export vocal — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+audio_exportés:
+  - onboarding_manifest_summary.mp3
+  - onboarding_certification_summary.mp3
+  - onboarding_submission_summary.mp3
+  - onboarding_cloture_summary.mp3
+  - onboarding_attestation_summary.mp3
+  - onboarding_export_summary.mp3
+
+usage:
+  - documentation audio
+  - export consolidé
+  - diffusion publique

@@ -1,0 +1,23 @@
+# 🧾 Fichier bot_registry_certificat.yaml — certificat officiel du projet
+# 🧾 Certificat officiel — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+heure: "12:04"
+signataire: "Eric"
+statut: "Projet certifié, verrouillé et prêt pour diffusion"
+
+certificat:
+  type: "Certificat de conformité et de clôture"
+  format: "YAML signé"
+  usage: "Archivage, diffusion, onboarding collaboratif"
+
+blocs_certifiés:
+  - manifeste versionné
+  - contrats et attestations
+  - synthèses vocales
+  - certification finale
+  - soumission officielle
+  - synthèse de clôture
+  - synthèse d’export consolidé
+  - synthèse d’attestation finale

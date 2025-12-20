@@ -1,0 +1,6 @@
+# Configuration du profil utilisateur, préférences, niveau pour Private Assistant
+# Version: 1.0 | Date: 2025-10-24 | Auteur: Eric
+user_id: private_assistant
+profile: individual
+mode: pedagogical
+verbosity: medium

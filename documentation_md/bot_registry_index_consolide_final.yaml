@@ -1,0 +1,51 @@
+# 📖 Index Consolidé Final — Private Assistant
+# Date : 16 novembre 2025
+# Signataire : Eric
+
+scripts_python:
+  - 43_✅_Finalisation_Registry.py
+  - 44_🏁_Clôture_Complete.py
+  - 47_🤝_Onboarding_Collaboratif.py
+  - 48_📚_Documentation_Synthetique.py
+  - 49_🗄️_Transmission_Historique.py
+  - 50_📦_Archivage_Definitif.py
+  - 51_🗂️_Indexation_Globale.py
+  - 52_🔚_Cycle_Complet.py
+  - 59_🙏_Remerciements.py
+  - 60_📚_Colophon.py
+  - 61_📖_Index_Final.py
+  - 62_📤_Transmission_Finale.py
+  - 63_🏛️_Cloture_Historique.py
+  - 64_📖_Sommaire_Global.py
+  - 65_🛡️_Unicite.py
+
+documentation_md:
+  - bot_registry_manifest_initiation_externe.md
+  - bot_registry_manifest_onboarding_collaboratif.md
+  - bot_registry_manifest_documentation_synthetique.md
+  - bot_registry_manifest_transmission_finale.md
+  - bot_registry_manifest_closure_complete.md
+  - bot_registry_manifest_cloture_historique.md
+  - bot_registry_manifest_archive_finale.md
+  - bot_registry_manifest_index_final.md
+  - bot_registry_manifest_cycle_complet.md
+  - bot_registry_manifest_sommaire_global.md
+  - bot_registry_manifest_unicite.md
+  - bot_registry_manifest_remerciements.md
+  - bot_registry_manifest_colophon.md
+  - bot_registry_manifest_annexes.md
+  - bot_registry_manifest_postface.md
+  - bot_registry_manifest_epilogue.md
+
+bannières_visuelles:
+  - assets/banner_transmission_finale.png
+  - assets/banner_cloture_historique.png
+  - assets/banner_cycle_complet.png
+  - assets/banner_sommaire_global.png
+  - assets/banner_unicite.png
+  - assets/banner_remerciements.png
+  - assets/banner_colophon.png
+  - assets/banner_index_final.png
+  - assets/banner_annexes.png
+  - assets/banner_postface.png
+  - assets/banner_epilogue.png

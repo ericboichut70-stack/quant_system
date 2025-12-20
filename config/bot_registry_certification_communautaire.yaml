@@ -1,0 +1,38 @@
+# 🏅 Validation finale par la communauté
+# 🏅 Certification communautaire — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-10"
+signataire: "Eric"
+
+origine:
+  validé_par: "Eric"
+  statut_backtest: "Réussite"
+  score_backtest: 100
+  synthèse_backtest: onboarding_backtest_summary.mp3
+
+blocs_certifiés:
+  - activation_modulaire
+  - validation_cross
+  - scoring_collaboratif
+  - export_final
+  - synthèse_vocale
+  - onboarding_externe
+  - clôture_mentor
+  - diffusion_publique
+
+documents:
+  - bot_registry_backtest_final.md
+  - bot_registry_diffusion_publique.md
+  - bot_registry_attestation_publique.md
+
+audio_mp3:
+  - onboarding_backtest_summary.mp3
+  - onboarding_diffusion_publique_summary.mp3
+  - onboarding_attestation_summary.mp3
+
+usage:
+  - certification communautaire
+  - audit collaboratif
+  - diffusion pédagogique
+  - archivage final

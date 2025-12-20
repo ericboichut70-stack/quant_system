@@ -1,0 +1,23 @@
+# ✅ Fichier .yaml bot_registry_validation.yaml — blocs validés
+# ✅ Validation des blocs contractuels — Private Assistant
+
+manifest:
+  version: "1.0.0"
+  validé: true
+
+engagements:
+  fichier: "bot_roadmap_commitments.yaml"
+  validé: true
+
+signatures:
+  fichier: "bot_roadmap_signatures.yaml"
+  validé: true
+
+attestations:
+  fichier: "bot_roadmap_attestations.md"
+  validé: true
+
+synthèses_vocales:
+  - onboarding_manifest_summary.wav
+  - onboarding_manifest_summary.mp3
+  - onboarding_validation_summary.wav

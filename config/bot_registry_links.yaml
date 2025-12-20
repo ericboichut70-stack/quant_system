@@ -1,0 +1,27 @@
+# 🔗 Créer le bloc bot_registry_links.yaml — centralisation des chemins et raccourcis
+# 🔗 Liens et raccourcis — Private Assistant
+
+dashboard:
+  label: "🏠 Dashboard principal"
+  chemin: "bot_dashboard.py"
+
+visualiseur_interactif:
+  label: "📊 Visualiseur cartographique"
+  chemin: "pages/2_📊_Visualiseur_Interactif.py"
+  export_md: "exports/bot_registry_map.md"
+  capture: "exports/visuals/visualiseur_cartographie.png"
+
+scripts_index:
+  label: "🧭 Index des scripts"
+  chemin: "config/bot_registry_scripts.yaml"
+  export_md: "exports/bot_registry_scripts.md"
+
+cartographie:
+  label: "🗺️ Cartographie YAML"
+  chemin: "config/bot_registry_map.yaml"
+  export_md: "exports/bot_registry_map.md"
+
+comparaison_versions:
+  label: "🔍 Comparaison inter-version"
+  chemin: "config/bot_registry_delta.json"
+  export_md: "exports/bot_registry_delta.md"

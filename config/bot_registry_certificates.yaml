@@ -1,0 +1,34 @@
+# 📜 Bloc bot_registry_certificates.yaml — index des certificats techniques
+# 📜 Index des certificats techniques — Private Assistant
+
+1.0.0:
+  certificat: "bot_certificate.md"
+  validé_par: "Dr. Lemoine"
+  score: 95
+  date: "2025-11-01"
+  artefacts:
+    - bot_roadmap_contract.md
+    - bot_roadmap_attestations.md
+    - bot_registry_manifest.yaml
+
+1.1.0:
+  certificat: prévu
+  validé_par: simulateur mentor
+  score: null
+  date: "2025-12-01"
+  artefacts:
+    - bot_roadmap_forecast.yaml
+    - bot_roadmap_commitments.yaml
+
+# 📜 Index des certificats techniques — Private Assistant
+
+1.0.0:
+  certificat: "bot_certificate.md"
+  validé_par: "Dr. Lemoine"
+  score: 95
+  date: "2025-11-01"
+  artefacts:
+    - bot_roadmap_contract.md
+    - bot_roadmap_attestations.md
+    - bot_registry_manifest.yaml
+    - bot_release_notes.json

@@ -1,0 +1,27 @@
+# 📘 Index YAML des blocs d’export final
+# 📘 Index d’export final — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+blocs_export:
+  - bot_registry_export_vocal.yaml
+  - bot_registry_index_zip.yaml
+  - bot_registry_index_diffusion.yaml
+  - bot_registry_index_manifestes.yaml
+  - bot_registry_index_complet.yaml
+  - bot_registry_index_synthese.yaml
+
+synthèses_export:
+  - onboarding_export_summary.mp3
+  - onboarding_cloture_summary.mp3
+
+pages_export:
+  - 21_📦_Export_Final.py
+  - 30_📤_Export_Archive.py
+
+usage:
+  - export consolidé
+  - archivage final
+  - documentation publique

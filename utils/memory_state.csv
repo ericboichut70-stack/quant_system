@@ -1,0 +1,13 @@
+# Base centrale
+📄 Structure du fichier :
+ScenarioType	Score	LastUpdated	IsActive
+breakout	2	2025-10-16	TRUE
+range	-3	2025-10-15	FALSE
+news_spike	-4	2025-10-14	FALSE
+reversal	1	2025-10-16	TRUE
+
+👉 Ce fichier devient la source unique pour :
+Visualisation mémoire
+Score adaptatif
+Filtrage des scénarios
+Réactivation manuelle

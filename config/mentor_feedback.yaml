@@ -1,0 +1,18 @@
+# 🧑‍🏫 Bloc mentor_feedback.yaml — traçabilité des scores et commentaires
+# 🧑‍🏫 Feedback mentor — Private Assistant
+
+memory_evolution:
+  score: 100
+  mentor_comment: "Structure parfaite, rien à redire."
+
+auto_mentor_feedback:
+  score: 85
+  mentor_comment: "Très bon module, quelques ajustements possibles."
+
+trend_detector:
+  score: 82
+  mentor_comment: "Fonctionne bien, mais manque de clarté dans les signaux."
+
+community_scoring:
+  score: 78
+  mentor_comment: "Concept intéressant, à affiner pour plus de robustesse."

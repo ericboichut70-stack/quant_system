@@ -1,0 +1,23 @@
+# 🧾 Signature, date, version
+# 🧾 Attestation finale de clôture — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+heure: "08:44"
+signataire: "Eric"
+statut: "Projet validé, verrouillé et prêt pour diffusion"
+
+blocs_certifiés:
+  - manifeste versionné
+  - contrats et attestations
+  - synthèses vocales
+  - synthèse vocale d’export consolidé
+  - synthèse vocale d’attestation finale
+  - certification finale
+  - archive complète
+  - soumission officielle
+  - synthèse de clôture
+
+audio_export: "exports/audio/onboarding_export_summary.mp3"
+audio_cloture: "exports/audio/onboarding_cloture_summary.mp3"
+audio_attestation: "exports/audio/onboarding_attestation_summary.mp3"

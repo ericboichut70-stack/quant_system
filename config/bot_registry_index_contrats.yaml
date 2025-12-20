@@ -1,0 +1,26 @@
+# 📘 Index YAML des contrats vocaux
+# 📘 Index des contrats vocaux — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+blocs_contrats:
+  - bot_registry_contracts.yaml
+  - bot_registry_attestation.yaml
+  - bot_registry_certificat.yaml
+  - bot_registry_attestation_publique.md
+
+synthèses_contrats:
+  - onboarding_certification_summary.mp3
+  - onboarding_attestation_summary.mp3
+
+pages_contrats:
+  - 15_📘_Contrats_Vocaux.py
+  - 16_🧾_Certification_Final.py
+  - 22_📜_Attestation_Projet.py
+
+usage:
+  - documentation contractuelle
+  - certification finale
+  - audit collaboratif

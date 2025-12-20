@@ -1,0 +1,16 @@
+# 🧠 Index des synthèses de clôture
+# 🧠 Synthèses de clôture — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+synthèses_cloture:
+  - onboarding_cloture_summary.mp3: "Clôture officielle du projet"
+  - onboarding_attestation_summary.mp3: "Attestation finale certifiée"
+  - onboarding_export_summary.mp3: "Export consolidé et archivé"
+
+usage:
+  - archivage final
+  - audit collaboratif
+  - documentation vocale

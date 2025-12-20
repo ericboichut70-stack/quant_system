@@ -1,0 +1,4 @@
+# 📄 Export CSV
+
+asset,structure,timeframe,confidence,score
+EURUSD,breaker + imbalance,M15,0.82,82

@@ -1,0 +1,11 @@
+SignalSuccess,RiskReward
+1,2.0
+0,1.5
+1,2.5
+0,1.0
+
+timestamp,SignalSuccess,RiskReward,StructureType,BOS,FVGType,OrderBlock,Mitigated,LiquidityZone,AggressionType,Volume
+2025-10-10 09:00,1,2.5,bullish,True,bullish,True,False,high,buy,1200
+2025-10-10 09:05,0,1.1,bearish,False,bearish,False,True,low,sell,800
+2025-10-10 09:10,1,3.0,range,False,bullish,True,True,high,buy,950
+2025-10-10 09:15,0,0.9,range,False,bearish,False,False,low,sell,600

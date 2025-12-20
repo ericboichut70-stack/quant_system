@@ -1,0 +1,12 @@
+INSTRUCTIONS TECHNIQUES — ACCOMPAGNEMENT MODAL
+
+Tonalité : La mineur
+Tempo : ♩ = 60
+Durée totale : ~1 min 30
+Bourdon : La2 (instrument : synthé, harmonium, voix grave)
+Accords : Am, Dm, E, Am
+Format audio : WAV ou MP3
+Export : mono ou stéréo, 44.1 kHz
+
+Usage : accompagnement de l’incantation vocale
+Destination : dossier /rituels_soutien/

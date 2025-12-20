@@ -1,0 +1,4 @@
+# 📤 Export .json des validations mentorales
+# ✅ Format ligne-par-ligne pour faciliter l’archivage et la lecture.
+{"scenario": "breaker", "score": 85, "decision": "Valider", "comment": "Structure bien formée", "timestamp": "2025-10-26 16:45"}
+{"scenario": "sweep", "score": 72, "decision": "À revoir", "comment": "Score moyen, à affiner", "timestamp": "2025-10-26 16:46"}

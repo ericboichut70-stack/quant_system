@@ -1,0 +1,22 @@
+# 📘 Index YAML des éléments de soumission finale
+# 📘 Index de soumission finale — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+blocs_soumission:
+  - bot_registry_submission.yaml
+  - onboarding_submission_summary.mp3
+  - bot_registry_attestation_publique.md
+  - bot_registry_index_diffusion.yaml
+  - bot_registry_index_zip.yaml
+
+pages_soumission:
+  - 19_📤_Soumission_Projet.py
+  - 18_🌐_Partage_Externe.py
+
+usage:
+  - soumission officielle
+  - diffusion publique
+  - audit collaboratif

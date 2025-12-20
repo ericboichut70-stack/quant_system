@@ -1,0 +1,337 @@
+# 📘 Index YAML de validation croisée
+# 📘 Index de validation croisée — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+blocs_validation:
+  - bot_registry_validation_cross.yaml
+  - bot_registry_manifest.yaml
+  - bot_registry_index_complet.yaml
+  - bot_registry_index_synthese.yaml
+  - bot_registry_index_certification.yaml
+  - bot_registry_index_attestation.yaml
+  - bot_registry_index_export.yaml
+  - bot_registry_index_cloture.yaml
+  - bot_registry_index_memoire.yaml
+  - bot_registry_index_navigation.yaml
+  - bot_registry_index_public.yaml
+
+pages_validation:
+  - 26_🗂️_Index_Manifestes.py
+  - 24_🧬_Structure_Projet.py
+  - 25_🧠_Mémoire_Projet.py
+
+usage:
+  - validation croisée
+  - documentation consolidée
+  - audit final
+
+fichiers_validation:
+  # 📘 Validation finale — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-09"
+signataire: "Eric"
+
+étapes_validées:
+  - Vérification des fichiers Markdown et HTML dans config/
+  - Présence de l’archive ZIP export_all.zip
+  - Présence du script 29_🧪_Vérification_Clôture.py
+  - Intégration dans bot_registry_index_validation.yaml
+  - Intégration dans bot_registry_index_zip.yaml
+  - Validation manuelle de la cohérence ZIP
+  - Clôture prête pour validation mentor (optionnelle)
+
+état:
+  - cohérence_zip: validée
+  - vérification_script: présent
+  - synthèse_vocale: en attente
+  - validation_mentor: en attente
+
+usage:
+  - verrouillage de validation
+  - audit de cohérence
+  - préparation à la diffusion
+
+fichiers_validation:
+  - bot_registry_validation_finale.yaml
+
+pages_historique:
+  - 20_📁_Historique_Projet.py
+
+fichiers_validation:
+  - bot_registry_validation_finale.yaml
+  - bot_registry_cloture_mentor.yaml
+  - bot_registry_diffusion_publique.yaml
+
+📦 Fichier bot_registry_index_diffusion.yaml — index de diffusion publique:
+📦 Index de diffusion publique — Private Assistant:
+
+version: "1.0.0"
+date: "2025-11-10"
+signataire: "Eric"
+
+fichiers_inclus:
+  - bot_registry_attestation_publique.md
+  - bot_registry_attestation_publique.html
+  - bot_registry_diffusion_publique.md
+  - bot_registry_diffusion_publique.yaml
+
+audio_mp3:
+  - onboarding_attestation_summary.mp3
+  - onboarding_diffusion_publique_summary.mp3
+
+documentation_md:
+  - bot_registry_attestation_publique.md
+  - bot_registry_diffusion_publique.md
+
+documentation_html:
+  - bot_registry_attestation_publique.html
+
+usage:
+  - diffusion publique
+  - audit collaboratif
+  - onboarding externe
+  - archivage final
+
+fichiers_backtest:
+# 🧪 Scénarios de test — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-10"
+signataire: "Eric"
+
+scenarios:
+  - activation_modulaire
+  - validation_cross
+  - scoring_collaboratif
+  - export_final
+  - synthèse_vocale
+  - onboarding_externe
+  - clôture_mentor
+  - diffusion_publique
+
+description:
+  activation_modulaire: "Teste l’activation séquentielle des modules avec verrouillage et traçabilité."
+  validation_cross: "Vérifie la cohérence entre les artefacts de validation croisée."
+  scoring_collaboratif: "Simule des scores mentor et communauté sur des blocs validés."
+  export_final: "Teste la génération et la structure du ZIP final."
+  synthèse_vocale: "Vérifie la présence et la lecture des fichiers audio."
+  onboarding_externe: "Simule un parcours utilisateur externe avec lecture des attestations."
+  clôture_mentor: "Teste le déclenchement et la consolidation de la validation mentor."
+  diffusion_publique: "Vérifie la disponibilité des artefacts publics pour audit et onboarding."
+
+usage:
+  - simulation
+  - audit
+  - onboarding
+
+# 📊 Règles de scoring — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-10"
+signataire: "Eric"
+
+scores:
+  activation_modulaire: 10
+  validation_cross: 15
+  scoring_collaboratif: 20
+  export_final: 10
+  synthèse_vocale: 10
+  onboarding_externe: 15
+  clôture_mentor: 10
+  diffusion_publique: 10
+
+seuils:
+  réussite: 80
+  alerte: 60
+  échec: <60
+
+usage:
+  - scoring mentor
+  - scoring communauté
+  - audit pédagogique
+
+# 🔁 Relecture des intégrations — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-10"
+signataire: "Eric"
+
+replay_sequence:
+  - activation_modulaire
+  - validation_cross
+  - scoring_collaboratif
+  - export_final
+  - synthèse_vocale
+  - onboarding_externe
+  - clôture_mentor
+  - diffusion_publique
+
+logique:
+  - chaque scénario est rejoué avec les artefacts verrouillés
+  - les scores sont recalculés à chaque passage
+  - les synthèses sont vérifiées en lecture
+  - les index sont comparés aux fichiers présents
+  - les anomalies sont consignées dans le log de simulation
+
+usage:
+  - relecture
+  - audit
+  - validation finale
+
+pages_backtest:
+# 🧪 Backtest du projet Private Assistant — lecture des scénarios, scores et relecture
+
+
+
+
+# 📈 Simulation des scores — Private Assistant
+
+import streamlit as st
+import yaml
+import os
+
+st.set_page_config(page_title="📈 Simulation Scoring", layout="wide")
+st.title("📈 Analyse des scores par scénario — Private Assistant")
+
+scores_path = "config/bot_registry_scores.yaml"
+
+if os.path.exists(scores_path):
+    with open(scores_path, "r") as f:
+        scores_data = yaml.safe_load(f)
+    scores = scores_data.get("scores", {})
+    seuils = scores_data.get("seuils", {})
+
+    st.subheader("📊 Scores par scénario")
+    for scenario, score in scores.items():
+        st.markdown(f"- **{scenario}** : `{score}` points")
+
+    total = sum(scores.values())
+    st.subheader("📈 Score cumulé")
+    st.metric(label="Total", value=total)
+
+    statut = "✅ Réussite" if total >= seuils.get("réussite", 80) else (
+        "⚠️ Alerte" if total >= seuils.get("alerte", 60) else "❌ Échec"
+    )
+    st.success(f"Statut global : {statut}")
+else:
+    st.warning("⚠️ Fichier de scoring introuvable.")
+
+
+
+# 🔁 Relecture des intégrations — Private Assistant
+
+import streamlit as st
+import yaml
+import os
+
+st.set_page_config(page_title="🔁 Replay Validation", layout="wide")
+st.title("🔁 Relecture des intégrations — Private Assistant")
+
+replay_path = "config/bot_registry_replay.yaml"
+
+if os.path.exists(replay_path):
+    with open(replay_path, "r") as f:
+        replay_data = yaml.safe_load(f)
+
+    st.subheader("🔁 Séquence de relecture")
+    for step in replay_data.get("replay_sequence", []):
+        st.markdown(f"- 🔁 {step}")
+
+    st.subheader("🧠 Logique de relecture")
+    for line in replay_data.get("logique", []):
+        st.markdown(f"- {line}")
+else:
+    st.warning("⚠️ Fichier de relecture introuvable.")
+
+import streamlit as st
+import yaml
+import os
+
+st.set_page_config(page_title="🧪 Backtest Projet", layout="wide")
+st.title("🧪 Simulation et scoring — Private Assistant")
+
+# 📁 Fichiers à charger
+paths = {
+    "Scénarios": "config/bot_registry_scenarios.yaml",
+    "Scores": "config/bot_registry_scores.yaml",
+    "Relecture": "config/bot_registry_replay.yaml"
+}
+
+data = {}
+
+for label, path in paths.items():
+    st.subheader(f"📄 {label}")
+    if not os.path.exists(path):
+        st.warning(f"⚠️ Fichier introuvable : {path}")
+        continue
+    with open(path, "r") as f:
+        data[label] = yaml.safe_load(f)
+    st.code(yaml.dump(data[label], allow_unicode=True), language="yaml")
+
+# 📊 Calcul du score total
+if "Scores" in data and "Scénarios" in data:
+    scores = data["Scores"].get("scores", {})
+    seuils = data["Scores"].get("seuils", {})
+    total = sum(scores.values())
+    st.subheader("📊 Score total")
+    st.metric(label="Score cumulé", value=total)
+
+    statut = "✅ Réussite" if total >= seuils.get("réussite", 80) else (
+        "⚠️ Alerte" if total >= seuils.get("alerte", 60) else "❌ Échec"
+    )
+    st.success(f"Statut : {statut}")
+
+# 🔁 Séquence de relecture
+if "Relecture" in data:
+    st.subheader("🔁 Séquence de relecture")
+    for step in data["Relecture"].get("replay_sequence", []):
+        st.markdown(f"- 🔁 {step}")
+
+
+
+fichiers_certification:
+🏅 Fichier bot_registry_certification_communautaire.yaml — validation finale par la communauté
+# 🏅 Certification communautaire — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-10"
+signataire: "Eric"
+
+origine:
+  validé_par: "Eric"
+  statut_backtest: "Réussite"
+  score_backtest: 100
+  synthèse_backtest: onboarding_backtest_summary.mp3
+
+blocs_certifiés:
+  - activation_modulaire
+  - validation_cross
+  - scoring_collaboratif
+  - export_final
+  - synthèse_vocale
+  - onboarding_externe
+  - clôture_mentor
+  - diffusion_publique
+
+documents:
+  - bot_registry_backtest_final.md
+  - bot_registry_diffusion_publique.md
+  - bot_registry_attestation_publique.md
+
+audio_mp3:
+  - onboarding_backtest_summary.mp3
+  - onboarding_diffusion_publique_summary.mp3
+  - onboarding_attestation_summary.mp3
+
+usage:
+  - certification communautaire
+  - audit collaboratif
+  - diffusion pédagogique
+  - archivage final
+
+pages_cloture:
+  - 34_🔚_Clôture_Projet.py

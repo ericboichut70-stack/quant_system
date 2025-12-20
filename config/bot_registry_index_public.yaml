@@ -1,0 +1,25 @@
+# 📘 Index YAML des blocs publics finaux
+# 📘 Index public final — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+blocs_publics:
+  - bot_registry_attestation_publique.md
+  - bot_registry_public.yaml
+  - bot_registry_index_diffusion.yaml
+  - bot_registry_index_soumission.yaml
+  - bot_registry_index_export.yaml
+  - bot_registry_index_certification.yaml
+  - bot_registry_index_attestation.yaml
+
+pages_publics:
+  - 17_📢_Diffusion_Projet.py
+  - 18_🌐_Partage_Externe.py
+  - 19_📤_Soumission_Projet.py
+
+usage:
+  - diffusion publique
+  - documentation finale
+  - audit collaboratif

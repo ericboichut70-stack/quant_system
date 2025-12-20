@@ -1,0 +1,44 @@
+# 📦 Index bot_registry_exports.yaml — centralisation des fichiers générés
+# 📦 Index des fichiers exportés — Private Assistant
+# 📌 Intégrable dans :
+# _ bot_registry_manifest.yaml → exports_index: bot_registry_exports.yaml
+# _ bot_registry_archive.yaml → ajouter tous les fichiers listés
+
+markdown:
+  - bot_registry_links_summary.md
+  - bot_registry_audio.md
+  - bot_registry_onboarding.md
+
+audio_wav:
+  - onboarding_links.wav
+  - audio_roles_summary.wav
+
+audio_mp3:
+  - onboarding_links.mp3
+  - audio_roles_summary.mp3
+
+#📦 Ajout onboarding_final_summary.wav et .mp3
+audio_wav:
+  - onboarding_links.wav
+  - audio_roles_summary.wav
+  - onboarding_final_summary.wav
+
+audio_mp3:
+  - onboarding_links.mp3
+  - audio_roles_summary.mp3
+  - onboarding_final_summary.mp3
+
+# 📦 Ajout de onboarding_manifest_summary.mp3
+audio_mp3:
+  - onboarding_links.mp3
+  - audio_roles_summary.mp3
+  - onboarding_final_summary.mp3
+  - onboarding_manifest_summary.mp3
+
+# 📦 Intégration des .mp3
+audio_mp3:
+  - onboarding_links.mp3
+  - audio_roles_summary.mp3
+  - onboarding_final_summary.mp3
+  - onboarding_manifest_summary.mp3
+  - onboarding_certification_summary.mp3

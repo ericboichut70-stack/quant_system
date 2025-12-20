@@ -1,0 +1,26 @@
+# ✍️ Bloc bot_roadmap_signatures.yaml — validations mentor et communautaires
+# ✍️ Signatures roadmap — Private Assistant
+
+1.0.0:
+  mentor:
+    - nom: "Dr. Lemoine"
+      rôle: "Validateur principal"
+      score: 95
+      commentaire: "Livraison conforme, structure claire, modules verrouillés avec rigueur."
+    - nom: "A. Dupont"
+      rôle: "Relecteur secondaire"
+      score: 88
+      commentaire: "Très bon niveau, interface mentor bien pensée."
+  communautaire:
+    - validé: false
+    - remarques: "Scoring communautaire prévu pour version 1.1.0"
+
+1.1.0:
+  mentor:
+    - nom: "À définir"
+      rôle: "Simulateur mentor"
+      score: null
+      commentaire: null
+  communautaire:
+    - validé: prévu
+    - remarques: "Validation multi-utilisateur en cours de structuration"

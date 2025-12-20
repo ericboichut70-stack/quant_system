@@ -1,0 +1,22 @@
+# 📘 Fichier bot_registry_index_structure.yaml — index structurel final du projet
+# 📘 Index structurel final — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+blocs_structurels:
+  - bot_registry_manifest.yaml
+  - bot_registry_archive.yaml
+  - bot_registry_structure.yaml
+  - bot_registry_index_pages.yaml
+  - bot_registry_index_synthese.yaml
+  - bot_registry_index_manifestes.yaml
+  - bot_registry_index_complet.yaml
+  - bot_registry_index_zip.yaml
+  - bot_registry_index_diffusion.yaml
+
+usage:
+  - navigation transversale
+  - documentation structurelle
+  - audit collaboratif

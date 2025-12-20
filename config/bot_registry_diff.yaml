@@ -1,0 +1,23 @@
+# 🔍 Bloc bot_registry_diff.yaml — comparaison entre deux versions
+# 🔍 Comparaison inter-version — Private Assistant
+
+1.0.0_vs_0.9.0:
+  ajout:
+    - interface_mentor
+    - export_vocal_feedback
+  verrouillage:
+    - memory_evolution
+    - auto_mentor_feedback
+  retrait:
+    - export_csv (remplacé par synthèse vocale)
+  évolution:
+    - trend_detector stabilisé
+    - scoring communautaire désactivé en attente de version 1.1.0
+
+0.9.0_vs_0.8.0:
+  ajout:
+    - trend_detector
+    - export_csv
+  correction:
+    - bug_import_module
+  retrait: []

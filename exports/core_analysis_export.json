@@ -1,0 +1,7 @@
+{
+  "asset": "EURUSD",
+  "structure": "breaker + imbalance",
+  "timeframe": "M15",
+  "confidence": 0.82,
+  "score": 82
+}

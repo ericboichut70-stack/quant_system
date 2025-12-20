@@ -1,0 +1,25 @@
+# 📘 Validation et diffusion
+# 📘 Diffusion publique — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-10"
+signataire: "Eric"
+
+attestation_publique:
+  fichier_markdown: bot_registry_attestation_publique.md
+  fichier_html: bot_registry_attestation_publique.html
+  synthèse_vocale: onboarding_attestation_summary.mp3
+
+étapes_diffusées:
+  - Certification finale
+  - Soumission officielle
+  - Synthèse de clôture
+  - Synthèse d’export consolidé
+  - Synthèse d’attestation finale
+  - Attestation publique validée
+
+usage:
+  - diffusion publique
+  - audit collaboratif
+  - onboarding externe
+  - archivage final

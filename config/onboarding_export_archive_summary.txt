@@ -1,0 +1,27 @@
+## 🔊 Synthèse vocale — Export complet
+
+**Fichier** : `onboarding_export_archive_summary.mp3`  
+**Texte source** : `onboarding_export_archive_summary.txt`
+
+---
+
+📦 **Export complet du projet Private Assistant**
+
+L’archive ZIP contient tous les fichiers YAML, Markdown, HTML, MP3 et scripts Python.  
+Les index sont consolidés.  
+Les synthèses sont verrouillées.  
+Les pages sont activées.
+
+🧠 Le système est prêt pour archivage, audit collaboratif et diffusion externe.  
+**Private Assistant est complet, certifié, et exporté.**
+
+🔊 Version vocale du manifeste
+Export complet du projet Private Assistant.
+
+L’archive ZIP contient tous les fichiers YAML, Markdown, HTML, MP3 et scripts Python.  
+Les index sont consolidés.  
+Les synthèses sont verrouillées.  
+Les pages sont activées.
+
+Le système est prêt pour archivage, audit collaboratif et diffusion externe.  
+Private Assistant est complet, certifié, et exporté.

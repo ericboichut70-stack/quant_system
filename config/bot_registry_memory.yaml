@@ -1,0 +1,9 @@
+# Index YAML des intentions, validations, signatures, attestations
+# 🧠 Mémoire consolidée du projet — Private Assistant
+
+intentions: config/bot_roadmap_commitments.yaml
+signatures: config/bot_roadmap_signatures.yaml
+attestations: config/bot_roadmap_attestations.md
+validation: config/bot_registry_validation.yaml
+soumission: config/bot_registry_submission.yaml
+attestation: config/bot_registry_attestation.yaml

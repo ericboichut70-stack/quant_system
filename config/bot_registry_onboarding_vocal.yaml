@@ -1,0 +1,16 @@
+# 📘 Index YAML des synthèses d’onboarding
+# 📘 Synthèses d’onboarding — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+synthèses_onboarding:
+  onboarding_manifest_summary.mp3: "Présentation du manifeste"
+  onboarding_certification_summary.mp3: "Certification finale"
+  onboarding_submission_summary.mp3: "Soumission officielle"
+
+usage:
+  - onboarding collaboratif
+  - documentation vocale
+  - diffusion pédagogique

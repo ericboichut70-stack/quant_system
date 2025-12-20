@@ -1,0 +1,30 @@
+# 📘 Index des éléments diffusables publiquement
+# 📘 Index de diffusion publique — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+markdown_public:
+  - bot_registry_onboarding.md
+  - bot_registry_contracts.md
+  - bot_registry_certification.md
+  - bot_registry_attestation_publique.md
+
+audio_public:
+  - onboarding_manifest_summary.mp3
+  - onboarding_certification_summary.mp3
+  - onboarding_submission_summary.mp3
+  - onboarding_cloture_summary.mp3
+  - onboarding_attestation_summary.mp3
+  - onboarding_export_summary.mp3
+
+pages_public:
+  - 18_🌐_Partage_Externe.py
+  - 21_📦_Export_Final.py
+  - 22_📜_Attestation_Projet.py
+
+usage:
+  - diffusion publique
+  - onboarding collaboratif
+  - documentation externe

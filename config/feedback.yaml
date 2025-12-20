@@ -1,0 +1,7 @@
+# 🧠 Amorce de la logique de feedback utilisateur / scoring interactif
+# Feedback utilisateur
+last_feedback:
+  module: interface_pilotage
+  score: 88
+  comment: "Signal clair, mais TP trop ambitieux"
+  timestamp: "2025-10-26 14:05"

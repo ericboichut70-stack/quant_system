@@ -1,0 +1,27 @@
+# 📘 Index YAML de navigation finale
+# 📘 Index de navigation finale — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+blocs_navigation:
+  - bot_registry_index_pages.yaml
+  - bot_registry_index_structure.yaml
+  - bot_registry_index_manifestes.yaml
+  - bot_registry_index_complet.yaml
+  - bot_registry_index_memoire.yaml
+  - bot_registry_index_synthese.yaml
+  - bot_registry_index_cloture.yaml
+  - bot_registry_index_export.yaml
+  - bot_registry_index_diffusion.yaml
+
+pages_navigation:
+  - 23_🧭_Navigation_Projet.py
+  - 24_🧬_Structure_Projet.py
+  - 27_🧭_Navigation_Transversale.py
+
+usage:
+  - navigation transversale
+  - documentation finale
+  - audit collaboratif

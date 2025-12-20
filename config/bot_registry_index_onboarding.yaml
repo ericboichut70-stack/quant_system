@@ -1,0 +1,40 @@
+# 📘 Index YAML des blocs d’onboarding final
+# 📘 Index d’onboarding final — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+blocs_onboarding:
+  - bot_registry_onboarding_vocal.yaml
+  - bot_registry_manifest.yaml
+  - bot_registry_index_vocal.yaml
+  - bot_registry_index_pages.yaml
+  - bot_registry_index_structure.yaml
+  - bot_registry_index_manifestes.yaml
+
+synthèses_onboarding:
+  - onboarding_manifest_summary.mp3
+  - onboarding_certification_summary.mp3
+  - onboarding_submission_summary.mp3
+
+pages_onboarding:
+  - 10_🧠_Synthèse_Onboarding.py
+  - 15_📘_Contrats_Vocaux.py
+  - 23_🧭_Navigation_Projet.py
+
+usage:
+  - onboarding collaboratif
+  - documentation vocale
+  - navigation initiale
+
+onboarding_index_summary.mp3:
+  - Bienvenue dans la carte interactive du système Private Assistant.
+
+  - Tous les fichiers index activés sont désormais consolidés dans un visualiseur transversal.  
+  - Chaque bloc est structuré, validé, et intégré dans le manifeste, l’archive, et les pages associées.  
+  - Vous pouvez explorer les synthèses vocales, les manifestes, les contrats, les exports, et les validations croisées.  
+  - Ce système garantit une documentation complète, un archivage final, et une auditabilité collaborative.
+
+  - Chaque fichier est traçable, chaque usage est documenté, et chaque page est activée.  
+  - Bienvenue dans l’architecture vivante du projet.

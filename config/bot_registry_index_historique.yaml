@@ -1,0 +1,23 @@
+# 📘 Index YAML des blocs d’historique final
+# 📘 Index d’historique final — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+blocs_historique:
+  - bot_registry_historique.yaml
+  - bot_registry_memory.yaml
+  - bot_registry_cloture_vocale.yaml
+  - bot_registry_index_cloture.yaml
+  - bot_registry_index_memoire.yaml
+  - bot_registry_index_synthese.yaml
+
+pages_historique:
+  - 20_📁_Historique_Projet.py
+  - 25_🧠_Mémoire_Projet.py
+
+usage:
+  - archivage final
+  - documentation de clôture
+  - audit collaboratif

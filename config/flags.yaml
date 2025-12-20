@@ -1,0 +1,8 @@
+# Détermination des modes de test, debug, replay, scoring, export, interface pour Private Assistant
+# Version: 1.0 | Date: 2025-10-24 | Auteur: Eric
+test_mode: true
+debug_logs: true
+replay_enabled: true
+scoring_enabled: true
+export_format: csv
+interface_mode: cli

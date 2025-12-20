@@ -1,0 +1,16 @@
+# 📘 Fichier bot_registry_index_attestation.yaml — index YAML des attestations finales
+# 📘 Index d’attestation finale — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+attestations:
+  - bot_registry_attestation.yaml
+  - bot_registry_attestation_publique.md
+  - onboarding_attestation_summary.mp3
+
+usage:
+  - certification finale
+  - diffusion publique
+  - audit collaboratif

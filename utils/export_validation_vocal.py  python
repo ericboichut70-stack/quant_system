@@ -1,0 +1,21 @@
+# 🔊 Synthèse vocale finale des engagements validés
+# 📌 Résultat : onboarding_validation_summary.wav dans exports/audio/
+import pyttsx3
+
+def export_validation_vocal(output_path="exports/audio/onboarding_validation_summary.wav"):
+    summary = """
+Synthèse finale des engagements validés :
+
+- Tous les blocs du manifeste ont été vérifiés.
+- Les engagements techniques sont consignés dans le fichier commitments.yaml.
+- Les signatures de validation sont enregistrées dans signatures.yaml.
+- Les attestations mentor sont disponibles dans attestations.md.
+- Les synthèses vocales sont intégrées dans le dashboard et l’archive.
+
+Le projet est prêt pour diffusion, onboarding et audit contractuel.
+"""
+
+    engine = pyttsx3.init()
+    engine.save_to_file(summary, output_path)
+    engine.runAndWait()
+    print(f"✅ Synthèse vocale finale exportée : {output_path}")

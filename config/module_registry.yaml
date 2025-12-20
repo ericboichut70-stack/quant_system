@@ -1,0 +1,580 @@
+account_router:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+account_selector:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+account_size_limiter:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+adaptive_feedback:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+alliance_progression:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+auto_mentor:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+auto_mentor_feedback:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+backtest_engine:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+badge_gallery:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+binome_scoring:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+binome_storyline:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+bot_memory:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+certification_collab:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+certification_engine:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+coherence_engine:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+collective_progress:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+collective_rewards:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+collective_simulator:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+collective_storyline:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+community_badges:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+community_dashboard:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+community_gallery:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+community_hub:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+community_reactivation:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+community_roles:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+community_score:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+community_scoring:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+community_season:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+cross_validation:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+dashboard_refactor:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+demo_dashboard:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+dynamic_deactivator:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+evolving_score:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+explainable_ai:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+export_pedagogy:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+feedback_stats:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+fvg_detector:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+group_pathway:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+interpair_challenge:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+interpair_quests:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+market_radar:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+memory_evolution:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+memory_timeline:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+mentor_approver:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+mentor_batch_validation:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+mentor_challenge:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+mentor_collab:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+mentor_cross_validation:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+mentor_supervision:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+mentor_validation:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+mentorship_link:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+mitigation_mapper:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+multi_level_pathway:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+multi_tf_contextualizer:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+multi_timeframe_convergence:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+narration_quests:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+narrative_progression:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+objective_tracker:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+optimizer:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+order_blocks:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+order_optimizer:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+orderflow_reader:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+packaging_module:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+parrainage:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+pause_manager:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+pedagogical_journal:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+pedagogical_pair:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+pedagogical_quests:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+pedagogical_rewards:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+performance_dashboard:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+personal_recommender:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+poi_mapper:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+position_manager:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+pre_trade_simulator:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+pre_trade_validator:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+progression_tracker:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+propfirm_compatibility_checker:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+public_demo:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+quantum_bridge:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+quest_tracker:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+ranking_publisher:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+replay_generator:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+replay_mode:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+replay_pedagogique:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+rotating_roles:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+scanner_intraday:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+scenario_builder:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+scenario_launchpad:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+scenario_pathway:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+scenario_reactivator:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+scenario_voting:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+season_closure:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+season_reset:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+season_transition:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+seasonal_progression:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+seasonal_ranking:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+seasonal_roles:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+seasonal_trophy:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+sentiment_analyzer:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+signal_attribution:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+signal_challenges:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+signal_filter:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+signal_predictor:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+signature_generator:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+smart_nudge:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+story_chapter_validation:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+structure_tracker:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+student_dashboard:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+temporary_roles:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+tournament_hub:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+trading_api:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+trend_detector:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+visual_badges:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+volatility_clustering:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+weekly_coach:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true
+zigzag_mapper:
+  status: actif
+  score: "\u2014"
+  replay: false
+  export: true

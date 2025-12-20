@@ -1,0 +1,14 @@
+# 📁 Index bot_registry_audio.yaml — fichiers vocaux du projet
+# 🔉 Index des fichiers vocaux — Private Assistant
+
+onboarding_links.wav:
+  rôle: "Synthèse vocale des liens du projet"
+  format: "wav"
+  source: "bot_registry_links.yaml"
+  usage: "lecture interne dans le dashboard"
+
+onboarding_links.mp3:
+  rôle: "Version audio exportable pour onboarding externe"
+  format: "mp3"
+  source: "bot_registry_links.yaml"
+  usage: "diffusion externe, documentation"

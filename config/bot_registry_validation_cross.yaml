@@ -1,0 +1,24 @@
+# 🧠 Validation croisée des blocs activés
+# 🧠 Validation croisée — Private Assistant
+
+blocs_validés:
+  - manifeste versionné
+  - contrats et attestations
+  - synthèses vocales
+  - certification finale
+  - soumission officielle
+  - synthèse de clôture
+  - synthèse d’export consolidé
+  - synthèse d’attestation finale
+  - indexation des pages activées
+  - export ZIP vérifié
+  - documentation publique validée
+
+validation_sources:
+  - bot_registry_manifest.yaml
+  - bot_registry_submission.yaml
+  - bot_registry_attestation.yaml
+  - bot_registry_archive.yaml
+  - bot_registry_index_pages.yaml
+  - bot_registry_index_zip.yaml
+  - bot_registry_index_diffusion.yaml

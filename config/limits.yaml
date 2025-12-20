@@ -1,0 +1,6 @@
+# Configuration des paramètres propfirm : drawdown, taille max, etc. pour Private Assistant
+# Version: 1.0 | Date: 2025-10-24 | Auteur: Eric
+max_daily_loss: -5.0
+max_position_size: 2.0
+max_open_trades: 3
+min_risk_reward: 1.5

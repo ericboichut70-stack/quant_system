@@ -1,0 +1,21 @@
+# 🧾 Fichier bot_registry_submission.yaml — date, version, horodatage
+# 🧾 Soumission officielle — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+heure: "08:09"
+soumis_par: "Eric"
+destination: "Mentor, Archive, Communauté"
+
+blocs_validés:
+  - manifeste versionné
+  - engagements techniques
+  - signatures et attestations
+  - synthèses vocales
+  - synthèse vocale d’export consolidé
+  - certification finale
+  - archive complète
+  - synthèse de clôture
+
+audio_export: "exports/audio/onboarding_export_summary.mp3"
+audio_cloture: "exports/audio/onboarding_cloture_summary.mp3"

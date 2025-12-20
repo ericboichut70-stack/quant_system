@@ -1,0 +1,39 @@
+# 🧠 Index synthétique final des blocs activés
+# 🧠 Index synthétique final — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+blocs_activés:
+  - manifeste versionné
+  - contrats et attestations
+  - synthèses vocales
+  - certification finale
+  - soumission officielle
+  - synthèse de clôture
+  - synthèse d’export consolidé
+  - synthèse d’attestation finale
+  - archive complète
+
+fichiers_yaml:
+  - bot_registry_manifest.yaml
+  - bot_registry_submission.yaml
+  - bot_registry_attestation.yaml
+  - bot_registry_certificat.yaml
+  - bot_registry_historique.yaml
+  - bot_registry_memory.yaml
+  - bot_registry_structure.yaml
+  - bot_registry_validation_cross.yaml
+  - bot_registry_public.yaml
+  - bot_registry_index_pages.yaml
+  - bot_registry_index_vocal.yaml
+  - bot_registry_synthese_finale.yaml
+  - bot_registry_cloture_vocale.yaml
+  - bot_registry_onboarding_vocal.yaml
+  - bot_registry_export_vocal.yaml
+
+usage:
+  - synthèse finale
+  - archivage
+  - audit collaboratif

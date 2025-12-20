@@ -1,0 +1,28 @@
+# 🚀 Lecture du manifeste de lancement — Private Assistant
+# Lecture du fichier vocal onboarding_manifest_lancement_circuit.mp3
+
+import streamlit as st
+import os
+
+st.set_page_config(page_title="🚀 Lancement sur circuit", layout="wide")
+st.title("🚀 Lancement sur circuit — Private Assistant")
+
+# 🖼️ Bannière visuelle
+st.image("assets/banner_lancement_circuit.png", use_column_width=True)
+
+# 📘 Lecture du texte
+txt_path = "config/onboarding_manifest_lancement_circuit.txt"
+if os.path.exists(txt_path):
+    with open(txt_path, "r", encoding="utf-8") as f:
+        st.subheader("📘 Texte source")
+        st.text(f.read())
+else:
+    st.warning("⚠️ Fichier texte introuvable.")
+
+# 🔊 Lecture audio
+audio_path = "config/onboarding_manifest_lancement_circuit.mp3"
+if os.path.exists(audio_path):
+    st.subheader("🔊 Lecture vocale")
+    st.audio(audio_path)
+else:
+    st.warning("⚠️ Fichier audio introuvable.")

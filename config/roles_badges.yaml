@@ -1,0 +1,31 @@
+# ⚙️ Structure du bloc roles_badges.yaml
+# Possible à charger dans tes scripts pour attribuer dynamiquement rôles et badges.
+# ⚙️ Configuration des rôles et badges
+
+roles:
+  mentor:
+    min_score: 90
+    badge: "🧠 Mentor"
+  validateur:
+    min_score: 75
+    badge: "🎓 Validateur"
+  apprenant:
+    min_score: 60
+    badge: "📘 Apprenant"
+  observateur:
+    min_score: 0
+    badge: "🔍 Observateur"
+
+badges:
+  or:
+    min_score: 90
+    label: "🏅 Badge Or"
+  argent:
+    min_score: 75
+    label: "🥈 Badge Argent"
+  bronze:
+    min_score: 60
+    label: "🥉 Badge Bronze"
+  apprenti:
+    min_score: 0
+    label: "🔧 Badge Apprenti"

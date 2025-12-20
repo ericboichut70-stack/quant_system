@@ -1,0 +1,6 @@
+{
+    "max_drawdown": 8.0,
+    "daily_loss_limit": 4.0,
+    "allow_scalping": true
+  }
+  

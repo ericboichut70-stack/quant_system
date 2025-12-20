@@ -1,0 +1,1 @@
+# Fichier __init__.py vide dans interface_pilotage/ pour le rendre importable si besoin.

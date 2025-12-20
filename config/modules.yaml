@@ -1,0 +1,15 @@
+# Configuration des modules activés/désactivés pour Private Assistant
+# Version: 1.0 | Date: 2025-10-24 | Auteur: Eric
+# Modules actifs
+core_analysis: true
+execution_engine: true
+propfirm_guard: true
+pedagogical_output: true
+memory_local: true
+interface_pilotage: true
+
+# Modules désactivés
+community_scoring: false
+roles_badges: false
+narration_quests: false
+mentor_validation: false

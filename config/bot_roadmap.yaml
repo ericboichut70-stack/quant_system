@@ -1,0 +1,21 @@
+# 🗺️ Bloc bot_roadmap.yaml — planification post-1.0.0
+# 🗺️ Feuille de route — Private Assistant post-1.0.0
+
+next_version: 1.1.0
+planned_date: "2025-12-01"
+
+objectifs:
+  - Intégration d’un module de scoring communautaire validé
+  - Ajout d’un simulateur mentor multi-module
+  - Export des feedbacks en format JSON et vocal
+  - Déploiement d’une interface utilisateur externe
+
+étapes:
+  - [ ] Verrouiller community_scoring
+  - [ ] Créer mentor_simulator.py
+  - [ ] Ajouter export_feedback_json.py
+  - [ ] Déployer interface_public.py
+
+notes:
+  - La version 1.1.0 sera orientée mentorat collaboratif
+  - Le noyau du bot reste stable et traçable

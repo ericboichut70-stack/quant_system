@@ -1,0 +1,24 @@
+# 🧮 Bloc bot_changelog.yaml — suivi technique des commits et changements
+# 🧮 Changelog technique — Private Assistant
+
+- version: 1.0.0
+  date: "2025-11-01"
+  commits:
+    - "Verrouillage global via bot_finalizer.py"
+    - "Ajout de mentor_interface.py"
+    - "Génération de bot_certificate.md"
+    - "Export vocal via streamlit_certification_audio.py"
+
+- version: 0.9.0
+  date: "2025-10-28"
+  commits:
+    - "Test intégré via test_simulation.py"
+    - "Export CSV des rôles attribués"
+    - "Ajout de community_scoring"
+
+- version: 0.8.0
+  date: "2025-10-20"
+  commits:
+    - "Création de module_registry.yaml"
+    - "Structuration des dossiers"
+    - "Ajout de run_test.py"

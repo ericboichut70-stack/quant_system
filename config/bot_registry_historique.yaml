@@ -1,0 +1,30 @@
+# 📁 Index des blocs archivés avec horodatage
+# 📁 Historique des blocs archivés — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+heure: "13:33"
+signataire: "Eric"
+
+blocs_archivés:
+  - bot_registry_manifest.yaml
+  - bot_registry_archive.yaml
+  - bot_registry_submission.yaml
+  - bot_registry_attestation.yaml
+  - bot_registry_certificat.yaml
+  - bot_registry_memory.yaml
+  - bot_registry_structure.yaml
+  - bot_registry_validation_cross.yaml
+  - bot_registry_public.yaml
+
+audio_archivés:
+  - onboarding_cloture_summary.mp3
+  - onboarding_attestation_summary.mp3
+  - onboarding_export_summary.mp3
+
+documentation:
+  - bot_registry_onboarding.md
+  - bot_registry_contracts.md
+  - bot_registry_certification.md
+
+archive_zip: "exports/export_all.zip"

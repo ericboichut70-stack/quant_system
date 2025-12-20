@@ -1,0 +1,27 @@
+# 📜 Bloc bot_roadmap_commitments.yaml — engagements par version
+# 📜 Engagements roadmap — Private Assistant
+
+1.0.0:
+  certifié: true
+  livré: true
+  engagements:
+    - Modules verrouillés et validés
+    - Interface mentor opérationnelle
+    - Certificat généré et archivé
+
+1.1.0:
+  certifié: en cours
+  livré: prévu
+  engagements:
+    - Scoring communautaire activé
+    - Simulateur mentor multi-module
+    - Export vocal des feedbacks
+    - Interface mentor enrichie
+
+1.2.0:
+  certifié: non
+  livré: planifié
+  engagements:
+    - Interface publique simplifiée
+    - Scoring multi-utilisateur
+    - Simulation pédagogique

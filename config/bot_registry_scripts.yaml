@@ -1,0 +1,27 @@
+# 🧭 Index des scripts utilitaires — bot_registry_scripts.yaml
+# 🧭 Index des scripts utilitaires — Private Assistant
+
+export_release_notes_json.py:
+  rôle: "Export .json des évolutions fonctionnelles par version"
+  génère: "exports/bot_release_notes.json"
+  source: "interne"
+
+export_changelog_md.py:
+  rôle: "Export .md du changelog technique (commits par version)"
+  génère: "exports/bot_changelog.md"
+  source: "config/bot_changelog.yaml"
+
+export_certificates_md.py:
+  rôle: "Export .md des certificats techniques"
+  génère: "exports/bot_registry_certificates.md"
+  source: "config/bot_registry_certificates.yaml"
+
+export_signatures_md.py:
+  rôle: "Export .md des signatures mentor et communautaires"
+  génère: "exports/bot_roadmap_signatures.md"
+  source: "config/bot_roadmap_signatures.yaml"
+
+export_archive_md.py:
+  rôle: "Export .md de l’archive des artefacts livrés"
+  génère: "exports/bot_registry_archive.md"
+  source: "config/bot_registry_archive.yaml"

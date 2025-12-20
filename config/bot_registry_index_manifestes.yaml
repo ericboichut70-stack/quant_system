@@ -1,0 +1,29 @@
+# 📘 Fichier bot_registry_index_manifestes.yaml — index final des fichiers manifeste
+# 📘 Index des fichiers manifeste — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+manifestes:
+  - bot_registry_manifest.yaml
+  - bot_registry_submission.yaml
+  - bot_registry_attestation.yaml
+  - bot_registry_certificat.yaml
+  - bot_registry_historique.yaml
+  - bot_registry_memory.yaml
+  - bot_registry_structure.yaml
+  - bot_registry_validation_cross.yaml
+  - bot_registry_public.yaml
+  - bot_registry_index_pages.yaml
+  - bot_registry_index_vocal.yaml
+  - bot_registry_synthese_finale.yaml
+  - bot_registry_cloture_vocale.yaml
+  - bot_registry_onboarding_vocal.yaml
+  - bot_registry_export_vocal.yaml
+  - bot_registry_index_synthese.yaml
+
+usage:
+  - documentation finale
+  - archivage
+  - audit collaboratif

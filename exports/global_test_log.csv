@@ -1,0 +1,6 @@
+# 📦 Export global .csv des sessions testées
+
+timestamp,module,asset,action,score,violations,export,replay
+2025-10-25 21:47,core_analysis,EURUSD,signal,82,0,true,true
+2025-10-25 21:49,execution_engine,EURUSD,entry,102,0,true,true
+2025-10-25 21:51,propfirm_guard,N/A,validation,10,3,true,true

@@ -1,0 +1,32 @@
+# 🧭 Index YAML des pages activées
+# 🧭 Index des pages activées — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-08"
+signataire: "Eric"
+
+pages_activées:
+  onboarding:
+    - 10_🧠_Synthèse_Onboarding.py
+    - 15_📘_Contrats_Vocaux.py
+  certification:
+    - 16_🧾_Certification_Final.py
+    - 22_📜_Attestation_Projet.py
+  diffusion:
+    - 17_📢_Diffusion_Projet.py
+    - 18_🌐_Partage_Externe.py
+    - 19_📤_Soumission_Projet.py
+  clôture:
+    - 20_📁_Historique_Projet.py
+    - 21_📦_Export_Final.py
+    - 30_📤_Export_Archive.py
+  mémoire:
+    - 25_🧠_Mémoire_Projet.py
+    - 26_🗂️_Index_Manifestes.py
+  navigation:
+    - 23_🧭_Navigation_Projet.py
+    - 24_🧬_Structure_Projet.py
+    - 27_🧭_Navigation_Transversale.py
+
+  lecture du manifeste:
+    - 35_📦_Export_Archive.py

@@ -1,0 +1,25 @@
+# 📤 Format export .json pour historique
+
+[
+  {
+    "asset": "EURUSD",
+    "entry": 1.065,
+    "exit": 1.068,
+    "result": "TP",
+    "error": null
+  },
+  {
+    "asset": "GBPUSD",
+    "entry": 1.215,
+    "exit": 1.21,
+    "result": "SL",
+    "error": "Invalidation non détectée"
+  },
+  {
+    "asset": "USDJPY",
+    "entry": 149.8,
+    "exit": 149.9,
+    "result": "BE",
+    "error": null
+  }
+]

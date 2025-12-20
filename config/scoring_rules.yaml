@@ -1,0 +1,21 @@
+# Règles de scoring pour Private Assistant
+# Version: 1.0 | Date: 2025-10-25 | Auteur: Eric
+
+core_analysis:
+  confidence_weight: 0.6
+  structure_quality_weight: 0.4
+  max_score: 100
+  validation_threshold: 70
+
+execution_engine:
+  risk_reward_weight: 0.5
+  sizing_accuracy_weight: 0.3
+  rule_respect_weight: 0.2
+  max_score: 100
+  validation_threshold: 75
+
+propfirm_guard:
+  rule_compliance_weight: 0.7
+  alert_precision_weight: 0.3
+  max_score: 100
+  validation_threshold: 80

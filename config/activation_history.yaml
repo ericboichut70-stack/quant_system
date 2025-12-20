@@ -1,0 +1,17 @@
+# 📜 Fichier activation_history.yaml — traçage des sessions
+# 📜 Historique des activations — Private Assistant
+
+- date: "2025-10-31 21:48:00"
+  mode: production
+  export: true
+  replay: true
+  modules:
+    - memory_evolution
+    - auto_mentor_feedback
+
+- date: "2025-10-30 18:22:00"
+  mode: simulation
+  export: false
+  replay: true
+  modules:
+    - trend_detector

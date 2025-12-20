@@ -1,0 +1,89 @@
+# 📦 Fichier bot_registry_index_zip.yaml — index final du contenu ZIP exporté
+# 📦 Index ZIP final — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-10"
+signataire: "Eric"
+
+fichiers_inclus:
+  # YAML principaux
+  - bot_registry_manifest.yaml
+  - bot_registry_submission.yaml
+  - bot_registry_attestation.yaml
+  - bot_registry_certificat.yaml
+  - bot_registry_historique.yaml
+  - bot_registry_memory.yaml
+  - bot_registry_structure.yaml
+  - bot_registry_validation_cross.yaml
+  - bot_registry_public.yaml
+  - bot_registry_cloture_mentor.yaml
+  - bot_registry_diffusion_publique.yaml
+  - bot_registry_certification_communautaire.yaml
+  - bot_registry_validation_finale.yaml
+  - bot_registry_cloture_finale.yaml
+
+  # Index YAML
+  - bot_registry_index_pages.yaml
+  - bot_registry_index_vocal.yaml
+  - bot_registry_index_synthese.yaml
+  - bot_registry_index_manifestes.yaml
+  - bot_registry_index_complet.yaml
+  - bot_registry_index_cloture.yaml
+  - bot_registry_index_memoire.yaml
+  - bot_registry_index_certification.yaml
+  - bot_registry_index_attestation.yaml
+  - bot_registry_index_export.yaml
+  - bot_registry_index_onboarding.yaml
+  - bot_registry_index_navigation.yaml
+  - bot_registry_index_zip.yaml
+  - bot_registry_index_cloture_finale.yaml
+
+  # Scripts Python
+  - 29_🧪_Vérification_Clôture.py
+  - 30_🧪_Backtest_Projet.py
+  - 31_📈_Simulation_Scoring.py
+  - 32_🔁_Replay_Validation.py
+  - 33_🏅_Certification_Communautaire.py
+  - 34_🔚_Clôture_Projet.py
+
+documentation_md:
+  - bot_registry_onboarding.md
+  - bot_registry_contracts.md
+  - bot_registry_certification.md
+  - bot_registry_attestation_publique.md
+  - bot_registry_diffusion_publique.md
+  - bot_registry_backtest_final.md
+  - bot_registry_certification_communautaire.md
+  - bot_registry_cloture_finale.md
+
+documentation_html:
+  - bot_registry_attestation_publique.html
+  - bot_registry_cloture_finale.html
+
+audio_mp3:
+  - onboarding_manifest_summary.mp3
+  - onboarding_certification_summary.mp3
+  - onboarding_submission_summary.mp3
+  - onboarding_cloture_summary.mp3
+  - onboarding_attestation_summary.mp3
+  - onboarding_export_summary.mp3
+  - onboarding_index_summary.mp3
+  - onboarding_cloture_finale_summary.mp3
+  - onboarding_diffusion_publique_summary.mp3
+  - onboarding_backtest_summary.mp3
+  - onboarding_certification_communautaire_summary.mp3
+  - onboarding_validation_finale_summary.mp3
+  - onboarding_export_archive_summary.mp3
+
+audio_txt:
+  - onboarding_export_archive_summary.txt
+
+archive_zip: "exports/export_all.zip"
+
+usage:
+  - archivage final
+  - audit collaboratif
+  - diffusion publique
+  - certification communautaire
+  - onboarding externe
+  - documentation pédagogique

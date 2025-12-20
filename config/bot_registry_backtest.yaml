@@ -1,0 +1,27 @@
+# 🧪 Fichier bot_registry_backtest.yaml — index de simulation
+# 🧪 Backtest — Private Assistant
+
+version: "1.0.0"
+date: "2025-11-10"
+signataire: "Eric"
+
+scenarios:
+  - bot_registry_scenarios.yaml
+  - bot_registry_scores.yaml
+  - bot_registry_replay.yaml
+
+modules:
+  - 30_🧪_Backtest_Projet.py
+  - 31_📈_Simulation_Scoring.py
+  - 32_🔁_Replay_Validation.py
+
+usage:
+  - simulation pédagogique
+  - scoring collaboratif
+  - audit des performances
+  - relecture des intégrations
+
+état:
+  - prêt pour activation
+  - fichiers indexés
+  - modules en attente

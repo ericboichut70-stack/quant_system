@@ -1,0 +1,23 @@
+# 📚 Bloc bot_roadmap_registry.yaml — index des validations et signatures
+# 📚 Registre roadmap — Private Assistant
+
+1.0.0:
+  modules_verrouillés:
+    - memory_evolution
+    - auto_mentor_feedback
+    - trend_detector
+  score_moyen: 89.0
+  certificat: "bot_certificate.md"
+  attestations: "bot_roadmap_attestations.md"
+  signatures: "bot_roadmap_signatures.yaml"
+  contrat: "bot_roadmap_contract.md"
+  livrée: true
+
+1.1.0:
+  modules_prévus:
+    - community_scoring
+    - mentor_simulator
+  certification: en cours
+  projection: "bot_roadmap_forecast.yaml"
+  engagement: "bot_roadmap_commitments.yaml"
+  livrée: false
