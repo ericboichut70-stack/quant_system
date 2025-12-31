@@ -1,0 +1,216 @@
+Isoler les modules quantitatifs réels dans ton projet, au milieu d’un écosystème gigantesque et hétérogène.
+
+C’est un travail fondamental, car toute la suite (README, documentation, architecture, onboarding) dépend de cette clarification.
+
+Et tu vas voir : malgré la taille colossale de ton projet, la structure quantitative réelle est identifiable, cohérente, et surtout… beaucoup plus compacte que ce que tu imaginais.
+
+🎯 POINT 2 — Détection des modules quantitatifs réels
+Ton projet contient trois grandes familles de code :
+
+Quantitatif (le moteur de marché)
+
+Pédagogique / communautaire / progression
+
+Interface / dashboards / automation documentaire
+
+Notre objectif ici est de distinguer clairement la famille 1.
+
+🧠 Analyse : où se trouve réellement le moteur quantitatif ?
+En parcourant l’ensemble des chemins que tu m’as transmis, voici ce qui ressort :
+
+✔️ 1. Dossiers explicitement quantitatifs
+data/
+→ ingestion, nettoyage, validation
+→ 100% quantitatif
+
+indicators/
+→ indicateurs techniques (phoebus_energy, ut_pivots, base_indicators)
+→ 100% quantitatif
+
+backtest/
+→ moteur de backtest
+→ quantitatif pur
+
+strategy/
+→ logique de stratégie
+→ quantitatif pur
+
+utils/
+→ helpers transverses
+→ quantitatif + générique
+
+✔️ 2. Dossiers mixtes (quantitatif + autre)
+modules/
+C’est le dossier le plus massif, et il mélange :
+
+modules quantitatifs (trend_detector, volatility_clustering, fvg_detector, orderflow_reader, zigzag_mapper, etc.)
+
+modules pédagogiques
+
+modules communautaires
+
+modules de scoring
+
+modules de progression
+
+modules de certification
+
+modules de narration
+
+modules de dashboard
+
+modules de simulation sociale
+
+modules de tests
+
+👉 Il faut isoler les modules quantitatifs dans ce dossier.
+
+🔍 Extraction des modules quantitatifs dans modules/
+Voici la liste des modules quantitatifs réels que j’ai identifiés dans modules/ :
+
+Structure de marché
+zigzag_mapper.py
+
+structure_tracker.py
+
+fvg_detector.py
+
+order_blocks.py
+
+Tendance / momentum
+trend_detector.py
+
+multi_timeframe_convergence.py
+
+multi_tf_contextualizer.py
+
+Volatilité
+volatility_clustering.py
+
+Orderflow
+orderflow_reader.py
+
+Signalisation
+signal_filter.py
+
+signal_predictor.py
+
+signal_attribution.py
+
+Optimisation
+optimizer.py
+
+order_optimizer.py
+
+Backtesting / simulation
+backtest_engine.py
+
+pre_trade_simulator.py
+
+pre_trade_validator.py
+
+Radar / scanning
+market_radar.py
+
+scanner_intraday.py
+
+Divers quantitatif
+quantum_bridge.py (à vérifier)
+
+poi_mapper.py (points of interest ?)
+
+trend_detector.py (déjà listé)
+
+scenario_builder.py (si lié au marché)
+
+👉 Ces modules appartiennent clairement au moteur quantitatif.
+
+🧹 Modules non quantitatifs dans modules/
+Pour être clair :
+80% du dossier modules/ n’est PAS quantitatif.
+
+Il contient :
+
+progression
+
+scoring
+
+narration
+
+pédagogie
+
+communauté
+
+badges
+
+rôles
+
+dashboards
+
+certifications
+
+mentorat
+
+saisonnalité
+
+storyline
+
+challenges
+
+etc.
+
+👉 Ces modules doivent être exclus de la documentation du moteur quantitatif.
+
+🧩 Synthèse : le moteur quantitatif réel
+Voici la structure quantitative réelle, consolidée :
+
+Code
+quant_system/
+│
+├── data/                     ← ingestion, nettoyage, validation
+├── indicators/               ← indicateurs techniques
+├── backtest/                 ← moteur de backtest
+├── strategy/                 ← logique de stratégie
+├── utils/                    ← helpers transverses
+│
+└── modules/ (partie quantitative uniquement)
+      ├── zigzag_mapper.py
+      ├── structure_tracker.py
+      ├── fvg_detector.py
+      ├── order_blocks.py
+      ├── trend_detector.py
+      ├── multi_timeframe_convergence.py
+      ├── multi_tf_contextualizer.py
+      ├── volatility_clustering.py
+      ├── orderflow_reader.py
+      ├── signal_filter.py
+      ├── signal_predictor.py
+      ├── signal_attribution.py
+      ├── optimizer.py
+      ├── order_optimizer.py
+      ├── backtest_engine.py
+      ├── pre_trade_simulator.py
+      ├── pre_trade_validator.py
+      ├── market_radar.py
+      ├── scanner_intraday.py
+      └── poi_mapper.py (à confirmer)
+🎯 Conclusion du Point 2
+Tu disposes maintenant d’une séparation nette :
+
+Le moteur quantitatif réel
+
+Le reste du projet (pédagogique, communautaire, interface, rituels, exports)
+
+C’est cette séparation qui va permettre :
+
+de documenter proprement
+
+de créer des README cohérents
+
+de structurer ton architecture
+
+de préparer un onboarding professionnel
+
+de clarifier ton dépôt GitHub
+
+d’éviter toute confusion future

@@ -1,33 +1,88 @@
-# 📘 README.md final — structure commentée
-# 🧠 Private Assistant — README
+# ⚡ Quantitative Trading Engine — Projet Modulaire & Documenté
 
-## 📦 Structure du projet
+Ce dépôt contient un moteur quantitatif complet, modulaire, extensible et entièrement documenté.  
+Il inclut :
 
-TRADING_BOT/
-├── modules/ # Modules métier 
-├── tests/ # Scénarios de test 
-├── utils/ # Scripts de maintenance 
-├── config/ # Fichiers de configuration 
-├── exports/ # Fichiers générés 
-├── replays/ # Relectures pédagogiques 
-├── interface_pilotage/ # Interfaces CLI et Streamlit 
-├── run_test.py # Script principal de test
+- pipeline quantitatif complet  
+- modules avancés (structure, volatilité, orderflow, signaux)  
+- stratégie configurable  
+- backtest robuste  
+- exports structurés  
+- interfaces (dashboards, CLI, audio)  
+- documentation exhaustive  
 
-## 🚀 Activation
+---
 
-- Lancer `activation_protocol.py` pour activer les modules verrouillés
-- Utiliser `cli_launcher.py` pour lancer avec options
+## 🧠 Fonctionnalités Principales
 
-## 📋 Registre
+- ingestion & normalisation des données  
+- indicateurs techniques  
+- modules quantitatifs avancés  
+- stratégie modulaire  
+- backtest réaliste  
+- exports (CSV, JSON, rapports, visuels)  
+- interfaces utilisateur  
+- documentation professionnelle  
 
-- `module_registry.yaml` : statut, score, replay, export
-- `bot_manifest.yaml` : modules actifs et fonctionnalités
+---
+
+## 📚 Documentation
+
+Toute la documentation se trouve dans :
+
+docs/
+
+Avec un index global dans :
+
+docs/README.md
+
+---
 
 ## 🧪 Tests
 
-- Chaque module possède un test dédié
-- Replays et exports générés automatiquement
+Les tests se trouvent dans :
 
-## 🎯 Objectif
+tests/
 
-Un assistant pédagogique, modulaire, traçable, et activable en production.
+Exécution :
+
+pytest
+
+---
+
+## 🧩 Contribution
+
+Voir :
+
+docs/reference/how_to_contribute.md
+
+---
+
+## 📜 Licence
+
+Ce projet est distribué sous licence **CC BY‑NC‑ND 4.0**.
+
+Vous êtes autorisé à :
+
+- lire le code  
+- l’utiliser pour un usage personnel  
+- le partager tel quel, avec attribution  
+
+Vous n’êtes pas autorisé à :
+
+- l’utiliser à des fins commerciales  
+- le modifier  
+- le redistribuer sous une forme modifiée  
+- l’intégrer dans un produit ou service  
+
+Texte complet de la licence :  
+
+Full legal text: <https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode>
+
+---
+
+## 🚀 Lancer rapidement
+
+```powershell
+cd <chemin_du_projet>
+streamlit run main.py

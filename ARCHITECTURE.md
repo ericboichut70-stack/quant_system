@@ -59,3 +59,41 @@
                      +-------------+
 
 A lire comme : données → analyse → structure & flux → signaux → attribution & optimisation → signature → exécution.
+
+---
+
+## ✅ Diagramme d’architecture (textuel)
+
+quant_system/
+│
+├── data/
+│
+├── loader.py│
+└── preprocess.py│
+├── indicators/│
+├── ema.py
+│
+├── adx.py│
+└── volatility.py│
+├── structure/│
+├── swings.py│
+└── zigzag.py │
+├── orderflow/│
+├── delta.py│
+├── imbalance.py│
+└── absorption.py│
+├── features/│
+├── feature_builder.py│
+└── encoders.py│
+├── signals/│
+├── signal_engine.py│
+└── scoring.py│
+├── optimization/│
+└── parameter_search.py │
+── attribution/│
+└── attribution_engine.py│
+├── utils/│
+├── hashing.py│
+└── helpers.py│
+└── pipeline/
+└── run_pipeline.py
