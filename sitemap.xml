@@ -9,7 +9,7 @@
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/PHASE_3_PHOEBUS_ENERGIE/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/ROADMAP/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
@@ -25,55 +25,111 @@
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/phase_1_architecture/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/phase_2_indicators/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/ARCHITECTURE/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/phase_3_energy/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/UML_OVERVIEW/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/phase_4_strategy/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/data_flow_diagram/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/phase_5_calibration_robustesse_ml/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/projet_structure/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/phase_5_feature_engineering/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/system_flow/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/phase_5_hyperopt/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/phase_5_ml_models/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/advanced_backtest_flow/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/phase_5_model_selection/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/ai_integration_map/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/phase_6_deep_learning/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/backtest_timing_diagram/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/data_validation_flow/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/full_system_map/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/global_dependencies/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/interface_system_map/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/layered_architecture/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/module_dependencies/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/monitoring_overview/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/quant_context_layers/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/quant_ecosystem_map/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/quant_pipeline_overview/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/quant_signal_flow/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/quant_signal_matrix/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/quant_system_layers/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/real_time_extension/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/strategy_flow_advanced/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/achitecture/diagrams/system_context/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/architecture/</loc>
-         <lastmod>2026-01-17</lastmod>
-    </url>
-    <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/ARCHITECTURE/</loc>
-         <lastmod>2026-01-17</lastmod>
-    </url>
-    <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/UML_OVERVIEW/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
@@ -101,83 +157,407 @@
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/ARCHITECTURE/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/advanced_backtest_flow/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/AUDIT/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/ai_integration_map/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/PHASE_3_PHOEBUS_ENERGIE/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/backtest_timing_diagram/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/TOC/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/data_validation_flow/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/UML_OVERVIEW/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/full_system_map/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/phase_1_architecture/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/global_dependencies/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/phase_2_indicators/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/interface_system_map/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/phase_3_energy/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/layered_architecture/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/phase_4_strategy/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/module_dependencies/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/phase_5_calibration_robustesse_ml/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/monitoring_overview/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/phase_5_feature_engineering/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/quant_context_layers/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/phase_5_hyperopt/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/quant_ecosystem_map/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/phase_5_ml_models/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/quant_pipeline_overview/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/phase_5_model_selection/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/quant_signal_flow/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/phase_6_deep_learning/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/quant_signal_matrix/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/dev_guides/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/quant_system_layers/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/dev_guides/coding_standards/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/real_time_extension/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/dev_guides/documentation_pipeline/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/strategy_flow_advanced/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/dev_guides/folder_structure/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/architecture/diagrams/system_context/</loc>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/dev_guides/testing_guidelines/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/advanced_backtest_flow/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/ai_integration_map/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/backtest_timing_diagram/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/data_validation_flow/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/full_system_map/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/global_dependencies/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/interface_system_map/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/layered_architecture/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/module_dependencies/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/monitoring_overview/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/quant_context_layers/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/quant_ecosystem_map/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/quant_pipeline_overview/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/quant_signal_flow/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/quant_signal_matrix/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/quant_system_layers/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/real_time_extension/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/strategy_flow_advanced/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/diagrams/system_context/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/exports/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/exports/examples/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/exports/formats/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/exports/logs/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/exports/usage_guidelines/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/guides/debugging/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/guides/performance/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/guides/testing/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/modules/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/modules/attribution/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/modules/data/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/modules/features/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/modules/indicators/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/modules/optimization/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/modules/orderflow/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/modules/pipeline/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/modules/signals/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/modules/structure/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/modules/utils/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/pedagogy/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/pedagogy/project_notes/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/quant_engine/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/quant_engine/backtest/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/quant_engine/calibration/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/quant_engine/indicators/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/quant_engine/ml/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/quant_engine/modules_quant/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/quant_engine/quant_signals/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/quant_engine/risk/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/quant_engine/strategy/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/quant_engine/validation/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/alpha_generation_principles/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/annexes/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/api_reference/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/architecture_principles/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/best_practices/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/changelog_internal/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/config_reference/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/data_quality_standards/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/documentation_complete/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/experiment_tracking/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/faq/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/feature_engineering_guide/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/glossary/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/how_to_contribute/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/indicator_math/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/indicators_pivots/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/market_regimes/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/metrics_definitions/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/performance_tuning/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/portfolio_construction/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/position_sizing_models/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/quant_research_guidelines/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/risk_management_principles/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/security_guidelines/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/reference/strategy_design_principles/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/roadmap/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/roadmap/RELEASE_1.0.0_DOCUMENTATION/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/roadmap/RELEASE_NOTES/</loc>
+         <lastmod>2026-01-17</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/archive_docs/roadmap/version_history/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
@@ -186,10 +566,6 @@
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/dev_guides/coding_standards/</loc>
-         <lastmod>2026-01-17</lastmod>
-    </url>
-    <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/dev_guides/documentation_pipeline/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
@@ -218,18 +594,6 @@
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/exports/usage_guidelines/</loc>
-         <lastmod>2026-01-17</lastmod>
-    </url>
-    <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/guides/debugging/</loc>
-         <lastmod>2026-01-17</lastmod>
-    </url>
-    <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/guides/performance/</loc>
-         <lastmod>2026-01-17</lastmod>
-    </url>
-    <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/guides/testing/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
@@ -325,10 +689,6 @@
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/quant_engine/calibration/</loc>
-         <lastmod>2026-01-17</lastmod>
-    </url>
-    <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/quant_engine/data/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
@@ -337,27 +697,11 @@
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/quant_engine/ml/</loc>
-         <lastmod>2026-01-17</lastmod>
-    </url>
-    <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/quant_engine/modules_quant/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/quant_engine/quant_signals/</loc>
-         <lastmod>2026-01-17</lastmod>
-    </url>
-    <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/quant_engine/risk/</loc>
-         <lastmod>2026-01-17</lastmod>
-    </url>
-    <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/quant_engine/strategy/</loc>
-         <lastmod>2026-01-17</lastmod>
-    </url>
-    <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/quant_engine/validation/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
@@ -373,10 +717,6 @@
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/reference/api_reference/</loc>
-         <lastmod>2026-01-17</lastmod>
-    </url>
-    <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/reference/architecture_principles/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
@@ -386,10 +726,6 @@
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/reference/changelog_internal/</loc>
-         <lastmod>2026-01-17</lastmod>
-    </url>
-    <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/reference/config_reference/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
@@ -422,10 +758,6 @@
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/reference/indicator_math/</loc>
-         <lastmod>2026-01-17</lastmod>
-    </url>
-    <url>
-         <loc>https://ericboichut70-stack.github.io/quant_system/reference/indicators_pivots/</loc>
          <lastmod>2026-01-17</lastmod>
     </url>
     <url>
