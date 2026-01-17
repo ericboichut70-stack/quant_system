@@ -1,0 +1,2711 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ericboichut70-stack.github.io/quant_system/quant_engine/indicators/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>📊 Documentation — Couche Indicateurs (indicators/) - Quant System v3</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#documentation-couche-indicateurs-indicators" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Quant System v3" class="md-header__button md-logo" aria-label="Quant System v3" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Quant System v3
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              📊 Documentation — Couche Indicateurs (indicators/)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Quant System v3" class="md-nav__button md-logo" aria-label="Quant System v3" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Quant System v3
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accueil
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Documentation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/README.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vue d’ensemble
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architecture
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Architecture
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/architecture/overview.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/architecture/pipeline_v3.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pipeline v3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/architecture/modules.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quant Engine
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Quant Engine
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/quant_engine/data.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Données
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/quant_engine/indicators.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Indicateurs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/quant_engine/quant_signals.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Signaux quantitatifs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/quant_engine/strategy.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stratégie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/quant_engine/risk.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Risque
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/quant_engine/backtest.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backtest
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/quant_engine/ml.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Machine Learning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Références
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Références
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/reference/api_reference.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/reference/config_reference.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/reference/indicators_pivots.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Indicateurs pivots
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Onboarding
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Onboarding
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/onboarding/installation.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Installation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/onboarding/workflow.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workflow
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/onboarding/conventions.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conventions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/guides/debugging.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Debugging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/guides/testing.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tests
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/guides/performance.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Performance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-role-de-la-couche-indicateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧭 1. Rôle de la Couche Indicateurs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-types-dindicateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧱 2. Types d’Indicateurs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21-indicateurs-de-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Indicateurs de Base
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-indicateurs-avances" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Indicateurs Avancés
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-indicateurs-structurels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Indicateurs Structurels
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-pipeline-des-indicateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔧 3. Pipeline des Indicateurs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-structure-du-dossier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📂 4. Structure du Dossier
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-tests-et-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧪 5. Tests et Validation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-integration-avec-les-autres-couches" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧭 6. Intégration avec les autres couches
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-pivots-ut-etat-actuel-evolution-phase-31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎼 7. Pivots UT — État actuel &amp; Évolution Phase 3.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#71-systeme-historique-ballistic-pivots" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎯 7.1 Système historique — Ballistic Pivots
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#72-systeme-phase-31-utpivots7-doremifasollasi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎼 7.2 Système Phase 3.1 — UTPivots7 (Do–Ré–Mi–Fa–Sol–La–Si)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🎼 7.2 Système Phase 3.1 — UTPivots7 (Do–Ré–Mi–Fa–Sol–La–Si)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#niveaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Niveaux
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formules-institutionnelles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Formules institutionnelles
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#73-tests-comparaison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧪 7.3 Tests &amp; Comparaison
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#74-statut-actuel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧭 7.4 Statut actuel
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#75-perspectives-phase-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔮 7.5 Perspectives Phase 3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-phoebus-energie-phase-32-ouverture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔥 8. Phoebus Énergie — Phase 3.2 (Ouverture)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#81-positionnement-institutionnel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎯 8.1 Positionnement institutionnel
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#82-objectifs-techniques-de-la-phase-32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧩 8.2 Objectifs techniques de la Phase 3.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#83-perimetre-de-la-phase-32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧱 8.3 Périmètre de la Phase 3.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#84-contraintes-et-risques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚠️ 8.4 Contraintes et risques
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#85-plan-de-travail-phase-32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧭 8.5 Plan de travail Phase 3.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#86-statut-actuel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧭 8.6 Statut actuel
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#87-versions-et-coexistence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧬 8.7 Versions et coexistence
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧬 8.7 Versions et coexistence">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phoebus-energie-v1-version-historique" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        • Phoebus Énergie v1 — Version historique
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phoebus-energie-phase-32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        • Phoebus Énergie — Phase 3.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#principe-de-coexistence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principe de coexistence
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#88-energie-normalisee-phase-321" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔧 8.8 Énergie normalisée — Phase 3.2.1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔧 8.8 Énergie normalisée — Phase 3.2.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definition-institutionnelle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Définition institutionnelle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statut" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Statut
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#89-energie-derivee-phase-322" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔄 8.9 Énergie dérivée — Phase 3.2.2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔄 8.9 Énergie dérivée — Phase 3.2.2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definition-institutionnelle-phase-322" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Définition institutionnelle — Phase 3.2.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statut-phase-322" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Statut — Phase 3.2.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#810-chaine-energetique-complete" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧭 8.10 Chaîne énergétique complète
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#811-phase-33-integration-optionnelle-cadrage-institutionnel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧩 8.11 Phase 3.3 — Intégration optionnelle (cadrage institutionnel)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧩 8.11 Phase 3.3 — Intégration optionnelle (cadrage institutionnel)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objectifs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎯 Objectifs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contraintes-institutionnelles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧱 Contraintes institutionnelles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tests-de-robustesse-a-definir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔬 Tests de robustesse à définir
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#points-de-contact-potentiels-avec-le-moteur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧭 Points de contact potentiels avec le moteur
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statut_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📌 Statut
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#812-phase-34-validation-experimentale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧪 8.12 Phase 3.4 — Validation expérimentale
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧪 8.12 Phase 3.4 — Validation expérimentale">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objectifs_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎯 Objectifs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#methodologie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔬 Méthodologie
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statut_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📌 Statut
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#813-phase-35-preintegration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧱 8.13 Phase 3.5 — Pré‑intégration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧱 8.13 Phase 3.5 — Pré‑intégration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objectifs_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎯 Objectifs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-potentielles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧩 Interfaces potentielles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invariants-institutionnels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧱 Invariants institutionnels
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gardefous" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛡️ Garde‑fous
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statut_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📌 Statut
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#814-phase-36-integration-controlee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧩 8.14 Phase 3.6 — Intégration contrôlée
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧩 8.14 Phase 3.6 — Intégration contrôlée">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objectifs_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎯 Objectifs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invariants-dintegration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧱 Invariants d’intégration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gardefous_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛡️ Garde‑fous
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#architecture-dintegration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧩 Architecture d’intégration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statut_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📌 Statut
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#815-phase-37-activation-experimentale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚦 8.15 Phase 3.7 — Activation expérimentale
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚦 8.15 Phase 3.7 — Activation expérimentale">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objectifs_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎯 Objectifs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#perimetre-dactivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧱 Périmètre d’activation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#methodologie_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧪 Méthodologie
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statut_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📌 Statut
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="documentation-couche-indicateurs-indicators">📊 Documentation — Couche Indicateurs (<code>indicators/</code>)</h1>
+<p>📚 Sommaire</p>
+<p>1.0 Rôle de la Couche Indicateurs</p>
+<p>2.0 Types d’Indicateurs</p>
+<p>2.1 Indicateurs de Base</p>
+<p>2.2 Indicateurs Avancés</p>
+<p>2.3 Indicateurs Structurels</p>
+<p>3.0 Pipeline des Indicateurs</p>
+<p>4.0 Structure du Dossier</p>
+<p>5.0 Tests et Validation</p>
+<p>6.0 Intégration avec les autres couches</p>
+<p>7.0 Pivots UT — État actuel &amp; Évolution Phase 3.1</p>
+<p>7.1 Système historique — Ballistic Pivots</p>
+<p>7.2 Système Phase 3.1 — UTPivots7</p>
+<p>7.3 Tests &amp; Comparaison</p>
+<p>7.4 Statut actuel</p>
+<p>7.5 Perspectives Phase 3</p>
+<hr />
+<p>Ce document décrit en profondeur la couche <strong>indicateurs</strong> du moteur quantitatif.
+Il complète le README du dossier <code>indicators/</code> en offrant une vue technique, détaillée et structurée.</p>
+<hr />
+<h2 id="1-role-de-la-couche-indicateurs">🧭 1. Rôle de la Couche Indicateurs</h2>
+<p>La couche <code>indicators/</code> transforme les données brutes en <strong>features exploitables</strong> par:</p>
+<ul>
+<li>les modules quantitatifs (<code>modules/quant/</code>)</li>
+<li>la stratégie (<code>strategy/</code>)</li>
+<li>le backtest (<code>backtest/</code>)</li>
+</ul>
+<p>Elle constitue la <strong>seconde couche</strong> du pipeline, juste après <code>data/</code>.</p>
+<hr />
+<h2 id="2-types-dindicateurs">🧱 2. Types d’Indicateurs</h2>
+<h2 id="21-indicateurs-de-base">2.1 Indicateurs de Base</h2>
+<ul>
+<li>
+<p>EMA, SMA  </p>
+</li>
+<li>
+<p>RSI  </p>
+</li>
+<li>ATR  </li>
+<li>Volumes  </li>
+<li>Variations, dérivées  </li>
+<li>Normalisations  </li>
+</ul>
+<h2 id="22-indicateurs-avances">2.2 Indicateurs Avancés</h2>
+<ul>
+<li>
+<p>énergie (phoebus_energy)  </p>
+</li>
+<li>
+<p>pivots UT  </p>
+</li>
+<li>signaux composites  </li>
+<li>volatilité dérivée  </li>
+<li>signaux multi‑timeframes  </li>
+</ul>
+<h2 id="23-indicateurs-structurels">2.3 Indicateurs Structurels</h2>
+<p>Utilisés par les modules quantitatifs :</p>
+<ul>
+<li>swings  </li>
+<li>zones clés  </li>
+<li>impulsions  </li>
+<li>compressions  </li>
+</ul>
+<hr />
+<h2 id="3-pipeline-des-indicateurs">🔧 3. Pipeline des Indicateurs</h2>
+<p>Le pipeline suit les étapes suivantes :</p>
+<ol>
+<li><strong>Préparation</strong></li>
+<li>alignement temporel  </li>
+<li>gestion des NaN  </li>
+<li>
+<p>normalisation  </p>
+</li>
+<li>
+<p><strong>Calcul</strong></p>
+</li>
+<li>application des formules  </li>
+<li>calcul vectorisé  </li>
+<li>
+<p>gestion des décalages  </p>
+</li>
+<li>
+<p><strong>Enrichissement</strong></p>
+</li>
+<li>signaux booléens  </li>
+<li>signaux multi‑niveaux  </li>
+<li>
+<p>signaux composites  </p>
+</li>
+<li>
+<p><strong>Validation</strong></p>
+</li>
+<li>absence de lookahead  </li>
+<li>cohérence temporelle  </li>
+<li>compatibilité avec les modules  </li>
+</ol>
+<hr />
+<h2 id="4-structure-du-dossier">📂 4. Structure du Dossier</h2>
+<p>Le dossier peut contenir :</p>
+<ul>
+<li><code>base_indicators.py</code>  </li>
+<li><code>phoebus_energy.py</code>  </li>
+<li><code>ut_pivots.py</code>  </li>
+<li><code>normalization.py</code>  </li>
+<li><code>signal_utils.py</code>  </li>
+<li><code>index.md</code> (documentation locale)</li>
+</ul>
+<hr />
+<h2 id="5-tests-et-validation">🧪 5. Tests et Validation</h2>
+<p>Les tests doivent vérifier :</p>
+<ul>
+<li>la cohérence des valeurs  </li>
+<li>l’absence de lookahead bias  </li>
+<li>la stabilité numérique  </li>
+<li>la compatibilité avec les modules quantitatifs  </li>
+<li>la reproductibilité  </li>
+</ul>
+<hr />
+<h2 id="6-integration-avec-les-autres-couches">🧭 6. Intégration avec les autres couches</h2>
+<p>data/ → indicators/ → modules/quant/ → strategy/ → backtest/</p>
+<p>Les indicateurs sont <strong>strictement en amont</strong> des modules quantitatifs.</p>
+<hr />
+<h2 id="7-pivots-ut-etat-actuel-evolution-phase-31">🎼 7. Pivots UT — État actuel &amp; Évolution Phase 3.1</h2>
+<p>Les pivots UT constituent un indicateur structurel utilisé pour repérer :</p>
+<p>les zones d’équilibre</p>
+<p>les zones d’excès</p>
+<p>les zones de retournement potentiel</p>
+<p>les zones de compression ou d’expansion</p>
+<p>Deux systèmes coexistent actuellement dans le projet :</p>
+<p>Ballistic Pivots (système historique, opérationnel)</p>
+<p>UTPivots7 (système Phase 3.1, expérimental)</p>
+<p>Cette coexistence est volontaire : elle permet de tester l’évolution sans perturber le moteur existant.</p>
+<h2 id="71-systeme-historique-ballistic-pivots">🎯 7.1 Système historique — Ballistic Pivots</h2>
+<p>Le système Ballistic repose sur :</p>
+<p>une régression polynomiale (centre de gravité)</p>
+<p>l’écart‑type des résidus (sigma)</p>
+<p>des multiplicateurs dérivés du ratio d’or</p>
+<p>une structure 3–1–3 :</p>
+<p>S1, S2, S3, S4</p>
+<p>Pivot central</p>
+<p>R1, R2, R3, R4</p>
+<p>Ce système est actuellement utilisé dans les modules existants.</p>
+<p>Il reste la référence opérationnelle tant que les backtests Phase 3 n’ont pas validé une alternative.</p>
+<h2 id="72-systeme-phase-31-utpivots7-doremifasollasi">🎼 7.2 Système Phase 3.1 — UTPivots7 (Do–Ré–Mi–Fa–Sol–La–Si)</h2>
+<p>Le système UTPivots7 est une évolution expérimentale, conçue pour :</p>
+<ul>
+<li>simplifier la structure  </li>
+<li>améliorer la lisibilité  </li>
+<li>réduire la volatilité des niveaux  </li>
+<li>rester fidèle à la logique 3–1–3  </li>
+<li>permettre une future simplification (5 pivots ou 3 pivots)  </li>
+</ul>
+<h3 id="niveaux">Niveaux</h3>
+<ul>
+<li><strong>P_Do</strong> : support extrême  </li>
+<li><strong>P_Re</strong> : support intermédiaire  </li>
+<li><strong>P_Mi</strong> : support proche du centre  </li>
+<li><strong>P_Fa</strong> : pivot central  </li>
+<li><strong>P_Sol</strong> : résistance proche du centre  </li>
+<li><strong>P_La</strong> : résistance intermédiaire  </li>
+<li><strong>P_Si</strong> : résistance extrême  </li>
+</ul>
+<h3 id="formules-institutionnelles">Formules institutionnelles</h3>
+<p>Soit :</p>
+<ul>
+<li><strong>High_ref</strong> : plus haut du range de référence  </li>
+<li><strong>Low_ref</strong>  : plus bas du range de référence  </li>
+<li><strong>Mid_ref</strong>  : (High_ref + Low_ref) / 2  </li>
+<li><strong>D</strong>        : (High_ref - Low_ref) / 6  </li>
+</ul>
+<p>Alors :</p>
+<ul>
+<li><strong>P_Do</strong>  = Mid_ref − 3D  </li>
+<li><strong>P_Re</strong>  = Mid_ref − 2D  </li>
+<li><strong>P_Mi</strong>  = Mid_ref − D  </li>
+<li><strong>P_Fa</strong>  = Mid_ref  </li>
+<li><strong>P_Sol</strong> = Mid_ref + D  </li>
+<li><strong>P_La</strong>  = Mid_ref + 2D  </li>
+<li><strong>P_Si</strong>  = Mid_ref + 3D  </li>
+</ul>
+<p>Ce système est simple, stable, lisible, et parfaitement adapté aux tests exploratoires.</p>
+<h2 id="73-tests-comparaison">🧪 7.3 Tests &amp; Comparaison</h2>
+<p>Deux types de tests sont en place :</p>
+<p>✔️ Tests unitaires
+vérification du nombre de niveaux</p>
+<p>vérification de la cohérence interne</p>
+<p>absence d’erreur d’exécution</p>
+<p>✔️ Tests comparatifs
+comparaison du pivot central Ballistic vs UTPivots7</p>
+<p>comparaison des structures</p>
+<p>analyse visuelle via notebook dédié</p>
+<p>Ces tests permettent d’évaluer la pertinence du système UTPivots7 sans perturber l’existant.</p>
+<h2 id="74-statut-actuel">🧭 7.4 Statut actuel</h2>
+<p>Ballistic Pivots : système officiel, utilisé dans le moteur</p>
+<p>UTPivots7 : système expérimental, non intégré au moteur</p>
+<p>Aucune bascule automatique n’est prévue à ce stade</p>
+<p>Aucune dépendance n’existe entre les deux systèmes</p>
+<p>Cette séparation garantit la stabilité du projet tout en permettant l’exploration.</p>
+<h2 id="75-perspectives-phase-3">🔮 7.5 Perspectives Phase 3</h2>
+<p>Les prochaines étapes prévues :</p>
+<p>validation empirique de UTPivots7</p>
+<p>comparaison multi‑UT</p>
+<p>intégration optionnelle (si validée)</p>
+<p>éventuelle simplification (5 pivots ou 3 pivots)</p>
+<p>documentation finale Phase 3.2</p>
+<hr />
+<h2 id="8-phoebus-energie-phase-32-ouverture">🔥 8. Phoebus Énergie — Phase 3.2 (Ouverture)</h2>
+<p>La Phase 3.2 introduit l’évolution expérimentale du module <strong>Phoebus Énergie</strong>, un indicateur avancé destiné à mesurer :</p>
+<ul>
+<li>l’intensité directionnelle du marché  </li>
+<li>la dynamique interne des impulsions  </li>
+<li>la dissipation ou l’accumulation d’énergie  </li>
+<li>les transitions entre phases d’expansion et de compression  </li>
+</ul>
+<p>Cette évolution reste <strong>strictement expérimentale</strong> et n’a aucun impact sur le moteur existant tant qu’elle n’a pas été validée par les backtests.</p>
+<hr />
+<h2 id="81-positionnement-institutionnel">🎯 8.1 Positionnement institutionnel</h2>
+<p>Phoebus Énergie appartient à la catégorie des <strong>indicateurs avancés</strong>, au même titre que :</p>
+<ul>
+<li>les pivots UT  </li>
+<li>les signaux composites  </li>
+<li>les mesures de volatilité dérivée  </li>
+</ul>
+<p>Il ne s’agit pas d’un oscillateur classique, mais d’un <strong>indicateur structurel</strong>, conçu pour :</p>
+<ul>
+<li>capturer la dynamique interne du prix  </li>
+<li>détecter les zones de tension énergétique  </li>
+<li>anticiper les ruptures de structure  </li>
+<li>qualifier la force d’un mouvement  </li>
+</ul>
+<p>L’objectif n’est pas de produire un signal d’achat/vente, mais une <strong>mesure neutre</strong>, exploitable par les modules quantitatifs.</p>
+<hr />
+<h2 id="82-objectifs-techniques-de-la-phase-32">🧩 8.2 Objectifs techniques de la Phase 3.2</h2>
+<p>La Phase 3.2 vise à :</p>
+<ol>
+<li><strong>Clarifier la définition mathématique</strong> de l’énergie (version institutionnelle)  </li>
+<li><strong>Séparer proprement</strong> :</li>
+<li>l’énergie brute  </li>
+<li>l’énergie normalisée  </li>
+<li>l’énergie dérivée  </li>
+<li><strong>Créer une structure de module propre</strong> dans <code>indicators/phoebus_energy.py</code>  </li>
+<li><strong>Préparer les tests unitaires</strong> pour valider :</li>
+<li>la cohérence temporelle  </li>
+<li>l’absence de lookahead  </li>
+<li>la stabilité numérique  </li>
+<li><strong>Documenter l’indicateur</strong> sans l’intégrer au moteur  </li>
+<li><strong>Préparer un notebook d’analyse visuelle</strong> (non obligatoire mais recommandé)</li>
+</ol>
+<p>Aucune intégration dans les modules quantitatifs n’est prévue à ce stade.</p>
+<hr />
+<h2 id="83-perimetre-de-la-phase-32">🧱 8.3 Périmètre de la Phase 3.2</h2>
+<p>La Phase 3.2 se limite à :</p>
+<ul>
+<li>définir la formule institutionnelle  </li>
+<li>structurer le module  </li>
+<li>produire un prototype testable  </li>
+<li>documenter l’indicateur  </li>
+<li>valider la cohérence interne  </li>
+</ul>
+<p>Elle <strong>n’inclut pas</strong> :</p>
+<ul>
+<li>l’intégration dans le moteur  </li>
+<li>l’utilisation dans la stratégie  </li>
+<li>l’utilisation dans les backtests  </li>
+<li>la calibration automatique  </li>
+<li>la génération de signaux  </li>
+</ul>
+<p>Ces étapes appartiendront à la Phase 3.3 ou ultérieure.</p>
+<hr />
+<h2 id="84-contraintes-et-risques">⚠️ 8.4 Contraintes et risques</h2>
+<ul>
+<li><strong>Neutralité scientifique</strong> : éviter toute interprétation subjective  </li>
+<li><strong>Stabilité numérique</strong> : éviter les explosions de valeurs  </li>
+<li><strong>Cohérence multi‑UT</strong> : l’énergie doit rester comparable entre UT  </li>
+<li><strong>Simplicité</strong> : éviter les formules ésotériques ou non reproductibles  </li>
+<li><strong>Non‑intrusion</strong> : ne pas perturber les modules existants  </li>
+</ul>
+<p>Ces contraintes garantissent que Phoebus Énergie reste un indicateur institutionnel, reproductible et exploitable.</p>
+<hr />
+<h2 id="85-plan-de-travail-phase-32">🧭 8.5 Plan de travail Phase 3.2</h2>
+<ol>
+<li><strong>Définition mathématique institutionnelle</strong>  </li>
+<li>énergie brute  </li>
+<li>énergie normalisée  </li>
+<li>
+<p>énergie dérivée  </p>
+</li>
+<li>
+<p><strong>Structure du module</strong>  </p>
+</li>
+<li>classe <code>PhoebusEnergy</code>  </li>
+<li>méthodes internes  </li>
+<li>
+<p>signature stable  </p>
+</li>
+<li>
+<p><strong>Prototype minimal</strong>  </p>
+</li>
+<li>calcul vectorisé  </li>
+<li>cohérence temporelle  </li>
+<li>
+<p>absence de lookahead  </p>
+</li>
+<li>
+<p><strong>Tests unitaires</strong>  </p>
+</li>
+<li>cohérence des valeurs  </li>
+<li>stabilité numérique  </li>
+<li>
+<p>reproductibilité  </p>
+</li>
+<li>
+<p><strong>Documentation</strong>  </p>
+</li>
+<li>description  </li>
+<li>formules  </li>
+<li>
+<p>exemples  </p>
+</li>
+<li>
+<p><strong>Notebook d’analyse</strong>  </p>
+</li>
+<li>visualisation  </li>
+<li>comparaison multi‑UT  </li>
+<li>analyse qualitative  </li>
+</ol>
+<hr />
+<h2 id="86-statut-actuel">🧭 8.6 Statut actuel</h2>
+<p>Phoebus Énergie (Phase 3.2) est :</p>
+<ul>
+<li><strong>en cours de définition</strong>  </li>
+<li><strong>non intégré au moteur</strong>  </li>
+<li><strong>non utilisé par les modules</strong>  </li>
+<li><strong>strictement expérimental</strong>  </li>
+<li><strong>documenté mais inactif</strong>  </li>
+</ul>
+<p>Il constitue une brique exploratoire destinée à enrichir la compréhension structurelle du marché.</p>
+<hr />
+<h2 id="87-versions-et-coexistence">🧬 8.7 Versions et coexistence</h2>
+<p>Deux versions de Phoebus Énergie coexistent désormais dans le projet :</p>
+<h3 id="phoebus-energie-v1-version-historique">• Phoebus Énergie v1 — Version historique</h3>
+<p>Fichier : <code>phoebus_energy_v1.py</code><br />
+Statut : stable, complète, non modifiée<br />
+Rôle :  </p>
+<ul>
+<li>analyse avancée  </li>
+<li>comparaison avec références externes  </li>
+<li>calibration  </li>
+<li>laboratoire d’expérimentation  </li>
+</ul>
+<h3 id="phoebus-energie-phase-32">• Phoebus Énergie — Phase 3.2</h3>
+<p>Fichier : <code>phoebus_energy.py</code><br />
+Statut : expérimental, institutionnel<br />
+Rôle :  </p>
+<ul>
+<li>base neutre pour l’évolution  </li>
+<li>énergie brute reproductible  </li>
+<li>fondation pour les futures étapes (normalisation, dérivée, multi‑UT)</li>
+</ul>
+<h3 id="principe-de-coexistence">Principe de coexistence</h3>
+<p>Les deux versions sont maintenues en parallèle afin de :</p>
+<ul>
+<li>préserver le travail historique  </li>
+<li>garantir la stabilité du projet  </li>
+<li>permettre une évolution progressive  </li>
+<li>éviter toute perturbation du moteur existant  </li>
+</ul>
+<p>Aucune des deux versions n’est supprimée ou remplacée.<br />
+La Phase 3.2 construit une base institutionnelle pour les futures évolutions, sans altérer la version historique.</p>
+<hr />
+<h2 id="88-energie-normalisee-phase-321">🔧 8.8 Énergie normalisée — Phase 3.2.1</h2>
+<p>L’énergie normalisée constitue la seconde brique du système Phoebus Énergie.<br />
+Elle vise à rendre l’énergie brute comparable entre :</p>
+<ul>
+<li>unités de temps  </li>
+<li>actifs  </li>
+<li>régimes de volatilité  </li>
+</ul>
+<h3 id="definition-institutionnelle">Définition institutionnelle</h3>
+<p>L’énergie normalisée est définie comme :</p>
+<p>[
+E_n(t) = \frac{E_b(t)}{ATR(t)}
+]</p>
+<p>où :</p>
+<ul>
+<li>(E_b(t)) est l’énergie brute  </li>
+<li>(ATR(t)) est l’Average True Range (fenêtre 14 par défaut)  </li>
+</ul>
+<p>Cette normalisation :</p>
+<ul>
+<li>neutralise l’effet de l’échelle du prix  </li>
+<li>neutralise l’effet de la volatilité locale  </li>
+<li>garantit une mesure UT‑agnostique  </li>
+<li>reste strictement sans lookahead  </li>
+</ul>
+<h3 id="statut">Statut</h3>
+<ul>
+<li>version expérimentale  </li>
+<li>non intégrée au moteur  </li>
+<li>base institutionnelle pour les futures étapes  </li>
+</ul>
+<hr />
+<h2 id="89-energie-derivee-phase-322">🔄 8.9 Énergie dérivée — Phase 3.2.2</h2>
+<p>L’énergie dérivée constitue la troisième brique du système Phoebus Énergie.<br />
+Elle mesure la <strong>variation</strong> de l’énergie normalisée dans le temps, permettant d’identifier:</p>
+<ul>
+<li>accélérations  </li>
+<li>décélérations  </li>
+<li>ruptures de régime  </li>
+<li>transitions structurelles  </li>
+</ul>
+<h3 id="definition-institutionnelle-phase-322">Définition institutionnelle — Phase 3.2.2</h3>
+<p>[
+E_d(t) = E_n(t) - E_n(t-1)
+]</p>
+<p>où :</p>
+<ul>
+<li>(E_n(t)) est l’énergie normalisée  </li>
+<li>aucune moyenne glissante n’est appliquée  </li>
+<li>aucune transformation non linéaire n’est introduite  </li>
+</ul>
+<p>Cette mesure reste :</p>
+<ul>
+<li>locale  </li>
+<li>directionnelle  </li>
+<li>sans lookahead  </li>
+<li>compatible avec les modules quantitatifs  </li>
+</ul>
+<h3 id="statut-phase-322">Statut — Phase 3.2.2</h3>
+<ul>
+<li>version expérimentale  </li>
+<li>non intégrée au moteur  </li>
+<li>fondation pour les futures analyses structurelles  </li>
+</ul>
+<hr />
+<h2 id="810-chaine-energetique-complete">🧭 8.10 Chaîne énergétique complète</h2>
+<p>Le système Phoebus Énergie Phase 3.2 repose désormais sur trois briques :</p>
+<ol>
+<li><strong>Énergie brute</strong></li>
+</ol>
+<p>[
+E_b(t) = |P(t) - P(t-1)|
+]
+2. <strong>Énergie normalisée</strong></p>
+<p>[
+E_n(t) = \frac{E_b(t)}{ATR(t)}
+]
+3. <strong>Énergie dérivée</strong></p>
+<p>[
+E_d(t) = E_n(t) - E_n(t-1)
+]</p>
+<p>Cette chaîne est :</p>
+<ul>
+<li>neutre  </li>
+<li>reproductible  </li>
+<li>UT‑agnostique  </li>
+<li>compatible multi‑actifs  </li>
+<li>strictement sans lookahead  </li>
+</ul>
+<p>Elle constitue la base institutionnelle de la Phase 3.3.</p>
+<hr />
+<h2 id="811-phase-33-integration-optionnelle-cadrage-institutionnel">🧩 8.11 Phase 3.3 — Intégration optionnelle (cadrage institutionnel)</h2>
+<p>La Phase 3.3 ne vise pas à intégrer Phoebus Énergie dans le moteur opérationnel.<br />
+Elle définit les conditions institutionnelles nécessaires pour qu’une intégration future soit envisageable, sans perturber la stabilité du système.</p>
+<p>Cette phase est strictement exploratoire et ne modifie aucun module existant.</p>
+<hr />
+<h3 id="objectifs">🎯 Objectifs</h3>
+<ul>
+<li>Définir les critères d’intégration potentielle de Phoebus Énergie.</li>
+<li>Définir les tests de robustesse nécessaires avant toute intégration.</li>
+<li>Définir les points de contact possibles avec les modules quantitatifs.</li>
+<li>Garantir la neutralité scientifique et la reproductibilité.</li>
+</ul>
+<hr />
+<h3 id="contraintes-institutionnelles">🧱 Contraintes institutionnelles</h3>
+<p>Tout indicateur candidat à l’intégration doit respecter :</p>
+<ul>
+<li>absence de lookahead  </li>
+<li>stabilité numérique  </li>
+<li>cohérence multi‑UT  </li>
+<li>cohérence multi‑actifs  </li>
+<li>faible sensibilité aux outliers  </li>
+<li>faible dépendance aux paramètres  </li>
+<li>reproductibilité totale  </li>
+<li>neutralité scientifique  </li>
+</ul>
+<p>Phoebus Énergie Phase 3.2 respecte déjà une partie de ces contraintes, mais nécessite une validation approfondie.</p>
+<hr />
+<h3 id="tests-de-robustesse-a-definir">🔬 Tests de robustesse à définir</h3>
+<p>La Phase 3.3 consiste à définir les tests suivants :</p>
+<ol>
+<li>
+<p><strong>Test de variance glissante</strong><br />
+   Vérifie la stabilité de la dispersion de l’énergie dans le temps.</p>
+</li>
+<li>
+<p><strong>Test de stabilité de distribution</strong><br />
+   Analyse la forme de la distribution (skewness, kurtosis, dérive).</p>
+</li>
+<li>
+<p><strong>Test de corrélation croisée</strong><br />
+   Vérifie l’absence de corrélations artificielles avec le prix ou d’autres indicateurs.</p>
+</li>
+<li>
+<p><strong>Test de sensibilité aux outliers</strong><br />
+   Mesure l’impact des points extrêmes sur les trois énergies.</p>
+</li>
+<li>
+<p><strong>Test de cohérence multi‑UT</strong><br />
+   Vérifie la stabilité des comportements entre M1, M5, M15, H1.</p>
+</li>
+<li>
+<p><strong>Test de cohérence multi‑actifs</strong><br />
+   Vérifie la robustesse sur devises, indices, crypto, matières premières.</p>
+</li>
+<li>
+<p><strong>Test de stabilité temporelle</strong><br />
+   Vérifie la robustesse sur plusieurs années et plusieurs régimes de marché.</p>
+</li>
+</ol>
+<p>Ces tests ne sont pas implémentés en Phase 3.3 :<br />
+la phase consiste uniquement à les définir.</p>
+<hr />
+<h3 id="points-de-contact-potentiels-avec-le-moteur">🧭 Points de contact potentiels avec le moteur</h3>
+<p>Phoebus Énergie pourrait, à terme, alimenter :</p>
+<ul>
+<li>un module de détection de compression/expansion  </li>
+<li>un module de détection de ruptures structurelles  </li>
+<li>un module de qualité de mouvement  </li>
+<li>un module de filtrage des signaux  </li>
+<li>un module de classification des régimes  </li>
+</ul>
+<p>Aucune intégration n’est prévue en Phase 3.3.</p>
+<hr />
+<h3 id="statut_1">📌 Statut</h3>
+<ul>
+<li>Phase strictement exploratoire  </li>
+<li>Aucun impact sur le moteur  </li>
+<li>Aucun signal produit  </li>
+<li>Aucun module modifié  </li>
+<li>Préparation institutionnelle pour une éventuelle Phase 3.4  </li>
+</ul>
+<hr />
+<hr />
+<h2 id="812-phase-34-validation-experimentale">🧪 8.12 Phase 3.4 — Validation expérimentale</h2>
+<p>La Phase 3.4 constitue la première étape de validation expérimentale du système Phoebus Énergie.<br />
+Elle ne modifie pas le moteur et n’intègre aucun signal opérationnel.<br />
+Elle vise à évaluer la robustesse empirique des trois briques énergétiques sur un ensemble d’actifs, d’unités de temps et de périodes historiques.</p>
+<hr />
+<h3 id="objectifs_1">🎯  Objectifs</h3>
+<ul>
+<li>Exécuter les tests de robustesse définis en Phase 3.3.  </li>
+<li>Évaluer la stabilité statistique des trois énergies.  </li>
+<li>Identifier les comportements anormaux, ruptures ou sensibilités excessives.  </li>
+<li>Déterminer si une Phase 3.5 (pré‑intégration) est justifiée.</li>
+</ul>
+<hr />
+<h3 id="methodologie">🔬 Méthodologie</h3>
+<p>La validation expérimentale repose sur :</p>
+<ol>
+<li><strong>Échantillons multi‑actifs</strong>  </li>
+<li>devises  </li>
+<li>indices  </li>
+<li>crypto  </li>
+<li>
+<p>matières premières  </p>
+</li>
+<li>
+<p><strong>Échantillons multi‑UT</strong>  </p>
+</li>
+<li>
+<p>M1, M5, M15, H1  </p>
+</li>
+<li>
+<p><strong>Échantillons multi‑régimes</strong>  </p>
+</li>
+<li>volatilité faible  </li>
+<li>volatilité élevée  </li>
+<li>tendances prolongées  </li>
+<li>
+<p>ranges prolongés  </p>
+</li>
+<li>
+<p><strong>Tests statistiques</strong>  </p>
+</li>
+<li>variance glissante  </li>
+<li>stabilité de distribution  </li>
+<li>corrélation croisée  </li>
+<li>sensibilité aux outliers  </li>
+<li>cohérence multi‑UT  </li>
+<li>cohérence multi‑actifs  </li>
+<li>stabilité temporelle  </li>
+</ol>
+<hr />
+<h3 id="statut_2">📌  Statut</h3>
+<ul>
+<li>Phase expérimentale  </li>
+<li>Aucun impact sur le moteur  </li>
+<li>Aucun signal produit  </li>
+<li>Préparation à une éventuelle Phase 3.5  </li>
+</ul>
+<hr />
+<hr />
+<h2 id="813-phase-35-preintegration">🧱 8.13 Phase 3.5 — Pré‑intégration</h2>
+<p>La Phase 3.5 constitue l’étape de pré‑intégration du système Phoebus Énergie.<br />
+Elle intervient uniquement si la Phase 3.4 a démontré une robustesse suffisante sur l’ensemble des tests statistiques, multi‑UT, multi‑actifs et multi‑régimes.</p>
+<p>Cette phase ne fusionne pas encore Phoebus Énergie dans le moteur, mais prépare l’intégration en définissant les interfaces, les invariants, les garde‑fous et les conditions d’activation.</p>
+<hr />
+<h3 id="objectifs_2">🎯   Objectifs</h3>
+<ul>
+<li>Définir l’interface d’intégration potentielle dans le moteur.  </li>
+<li>Définir les invariants que l’indicateur doit respecter en production.  </li>
+<li>Définir les garde‑fous empêchant toute dérive ou instabilité.  </li>
+<li>Définir les conditions d’activation (opt‑in, expérimental, sandbox).  </li>
+<li>Préparer la documentation technique d’intégration.</li>
+</ul>
+<hr />
+<h3 id="interfaces-potentielles">🧩 Interfaces potentielles</h3>
+<p>Phoebus Énergie pourrait être exposé via :</p>
+<ul>
+<li>une classe <code>EnergyModule</code> indépendante  </li>
+<li>un namespace <code>energy</code> dans le moteur  </li>
+<li>un wrapper d’accès unifié (multi‑UT, multi‑actifs)  </li>
+<li>un point d’entrée optionnel dans les pipelines quantitatifs  </li>
+</ul>
+<p>Aucune interface n’est implémentée en Phase 3.5.</p>
+<hr />
+<h3 id="invariants-institutionnels">🧱 Invariants institutionnels</h3>
+<p>Tout module candidat à l’intégration doit garantir :</p>
+<ul>
+<li>absence totale de lookahead  </li>
+<li>stabilité numérique (pas de NaN, pas d’infini)  </li>
+<li>vectorisation complète  </li>
+<li>coût CPU maîtrisé  </li>
+<li>comportement stable sur données manquantes  </li>
+<li>comportement stable sur données bruitées  </li>
+<li>comportement stable sur données extrêmes  </li>
+</ul>
+<hr />
+<h3 id="gardefous">🛡️ Garde‑fous</h3>
+<p>Avant toute intégration, Phoebus Énergie doit :</p>
+<ul>
+<li>passer les tests de robustesse Phase 3.4  </li>
+<li>démontrer une stabilité multi‑UT  </li>
+<li>démontrer une stabilité multi‑actifs  </li>
+<li>démontrer une stabilité temporelle  </li>
+<li>ne pas introduire de dépendance externe  </li>
+<li>ne pas modifier les modules existants  </li>
+</ul>
+<hr />
+<h3 id="statut_3">📌   Statut</h3>
+<ul>
+<li>Phase préparatoire  </li>
+<li>Aucun code intégré au moteur  </li>
+<li>Aucun signal produit  </li>
+<li>Préparation institutionnelle pour la Phase 3.6 (intégration contrôlée)  </li>
+</ul>
+<hr />
+<h2 id="814-phase-36-integration-controlee">🧩 8.14 Phase 3.6 — Intégration contrôlée</h2>
+<p>La Phase 3.6 constitue la première étape d’intégration potentielle du système Phoebus Énergie dans le moteur quantitatif.<br />
+Cette intégration est strictement <strong>contrôlée</strong>, <strong>réversible</strong>, et <strong>sans impact</strong> sur les modules existants tant que toutes les conditions institutionnelles ne sont pas validées.</p>
+<hr />
+<h3 id="objectifs_3">🎯    Objectifs</h3>
+<ul>
+<li>Introduire Phoebus Énergie dans le moteur sous forme d’<strong>option inactive par défaut</strong>.  </li>
+<li>Définir un <strong>wrapper d’accès</strong> garantissant la neutralité et la reproductibilité.  </li>
+<li>Implémenter les <strong>invariants institutionnels</strong> définis en Phase 3.5.  </li>
+<li>Mettre en place les <strong>garde‑fous</strong> empêchant toute dérive ou instabilité.  </li>
+<li>Garantir une <strong>coexistence propre</strong> entre la version historique et la version Phase 3.2.</li>
+</ul>
+<hr />
+<h3 id="invariants-dintegration">🧱 Invariants d’intégration</h3>
+<p>Avant activation, Phoebus Énergie doit respecter :</p>
+<ul>
+<li>stabilité numérique (aucun NaN, aucun infini)  </li>
+<li>absence totale de lookahead  </li>
+<li>comportement stable sur séries courtes  </li>
+<li>cohérence multi‑UT  </li>
+<li>cohérence multi‑actifs  </li>
+<li>coût CPU maîtrisé  </li>
+<li>reproductibilité totale  </li>
+</ul>
+<p>Ces invariants sont vérifiés automatiquement par les tests Phase 3.5.</p>
+<hr />
+<h3 id="gardefous_1">🛡️  Garde‑fous</h3>
+<p>L’intégration contrôlée impose :</p>
+<ul>
+<li>un wrapper isolé (<code>EnergyModule</code>)  </li>
+<li>aucune modification des modules existants  </li>
+<li>activation manuelle explicite  </li>
+<li>logs institutionnels en cas d’anomalie  </li>
+<li>désactivation automatique en cas de violation d’invariant  </li>
+</ul>
+<hr />
+<h3 id="architecture-dintegration">🧩 Architecture d’intégration</h3>
+<p>Phoebus Énergie est exposé via :</p>
+<pre><code class="language-bash">modules/
+quant/
+energy/
+energy_module.py   ← wrapper institutionnel
+</code></pre>
+<p>Le moteur ne consomme <strong>jamais</strong> directement <code>PhoebusEnergy</code>.<br />
+Il passe uniquement par le wrapper, garantissant :</p>
+<ul>
+<li>neutralité  </li>
+<li>stabilité  </li>
+<li>traçabilité  </li>
+<li>réversibilité  </li>
+</ul>
+<hr />
+<h3 id="statut_4">📌    Statut</h3>
+<ul>
+<li>Intégration optionnelle  </li>
+<li>Inactive par défaut  </li>
+<li>Aucun impact sur les signaux  </li>
+<li>Préparation à la Phase 3.7 (activation expérimentale)</li>
+</ul>
+<hr />
+<hr />
+<h2 id="815-phase-37-activation-experimentale">🚦 8.15 Phase 3.7 — Activation expérimentale</h2>
+<p>La Phase 3.7 constitue la première activation <strong>expérimentale</strong> de Phoebus Énergie
+dans un contexte moteur, sur un périmètre strictement contrôlé.</p>
+<hr />
+<h3 id="objectifs_4">🎯     Objectifs</h3>
+<ul>
+<li>Activer Phoebus Énergie via le wrapper institutionnel (EnergyModule).  </li>
+<li>Limiter l’activation à un environnement expérimental ou sandbox.  </li>
+<li>Observer le comportement du moteur avec et sans l’indicateur.  </li>
+<li>Mesurer l’impact sur :</li>
+<li>la stabilité des signaux</li>
+<li>les performances des stratégies</li>
+<li>la sensibilité aux régimes de marché</li>
+</ul>
+<hr />
+<h3 id="perimetre-dactivation">🧱 Périmètre d’activation</h3>
+<ul>
+<li>Environnement : sandbox / expérimental uniquement  </li>
+<li>Stratégies : sous‑ensemble limité, documenté  </li>
+<li>Actifs : sélection restreinte (devises / indices / crypto)  </li>
+<li>UT : ensemble prédéfini (ex. M5, M15, H1)</li>
+</ul>
+<p>Aucune activation globale en production n’est prévue en Phase 3.7.</p>
+<hr />
+<h3 id="methodologie_1">🧪 Méthodologie</h3>
+<ul>
+<li>lancer des backtests comparatifs :</li>
+<li>moteur sans Phoebus Énergie</li>
+<li>moteur avec Phoebus Énergie activée  </li>
+<li>comparer :</li>
+<li>la stabilité des résultats</li>
+<li>la sensibilité aux paramètres</li>
+<li>la robustesse des stratégies</li>
+</ul>
+<hr />
+<h3 id="statut_5">📌     Statut</h3>
+<ul>
+<li>Phase expérimentale, non productive  </li>
+<li>Activation encadrée par configuration  </li>
+<li>Retour possible à l’état sans Phoebus Énergie à tout moment</li>
+</ul>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
