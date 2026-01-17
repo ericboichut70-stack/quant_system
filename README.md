@@ -1,88 +1,142 @@
-# ⚡ Quantitative Trading Engine — Projet Modulaire & Documenté
+Quant System v3 — Moteur Quantitatif Modulaire
+Quant System v3 est un moteur quantitatif modulaire conçu pour l’analyse de marché, la génération de signaux, la construction de stratégies, le backtesting et l’intégration future de modèles ML.
 
-Ce dépôt contient un moteur quantitatif complet, modulaire, extensible et entièrement documenté.  
-Il inclut :
+Cette version introduit un pipeline entièrement structuré, une documentation professionnelle et une architecture prête pour l’extension.
 
-- pipeline quantitatif complet  
-- modules avancés (structure, volatilité, orderflow, signaux)  
-- stratégie configurable  
-- backtest robuste  
-- exports structurés  
-- interfaces (dashboards, CLI, audio)  
-- documentation exhaustive  
+🚀 Fonctionnalités principales
+Pipeline v3 composé de 12 stages indépendants
 
----
+Backtest event‑driven
 
-## 🧠 Fonctionnalités Principales
+Multi‑UT intégré
 
-- ingestion & normalisation des données  
-- indicateurs techniques  
-- modules quantitatifs avancés  
-- stratégie modulaire  
-- backtest réaliste  
-- exports (CSV, JSON, rapports, visuels)  
-- interfaces utilisateur  
-- documentation professionnelle  
+Indicateurs techniques avancés
 
----
+Génération de signaux quantitatifs
 
-## 📚 Documentation
+Construction de signaux composites
 
-Toute la documentation se trouve dans :
+Gestion du risque
+
+Export structuré des résultats
+
+Support ML (features + modèles)
+
+Documentation MkDocs Material
+
+📦 Installation
+Code
+pip install -r requirements.txt
+▶️ Exécution du pipeline
+Code
+python main_pipeline_v3.py
+📤 Exports générés
+Les résultats sont disponibles dans :
+
+Code
+exports/pipeline_v3_example/
+Contenu :
+
+trades.csv
+
+equity_curve.csv
+
+metrics.json
+
+📘 Documentation
+La documentation complète est disponible dans :
+
+Code
+docs/
+Elle inclut :
+
+Architecture
+
+Pipeline
+
+Indicateurs
+
+Stratégie
+
+Backtest
+
+ML
+
+Guides techniques
+
+Une version en ligne sera bientôt disponible via GitHub Pages.
+
+🧱 Structure du projet
+Code
+quant_system/
+│
+├── pipeline/          # Pipeline v3 (12 stages)
+├── config/            # Configuration YAML
+├── data/              # Données brutes et nettoyées
+├── indicators/        # Indicateurs techniques
+├── strategy/          # Stratégies de trading
+├── utils/             # Fonctions utilitaires
+├── tests/             # Tests unitaires
+├── exports/           # Résultats du pipeline
+├── docs/              # Documentation MkDocs
+├── notebooks/         # Analyses Jupyter
+├── archive_legacy/    # Historique du projet
+└── main_pipeline_v3.py
+🏁 Statut
+Version stable, prête pour utilisation, documentation et extension ML.
+
+🟦 3) Préparation de la documentation pour GitHub Pages
+Tu as déjà :
+
+mkdocs.yml
 
 docs/
 
-Avec un index global dans :
+un site local fonctionnel
 
-docs/README.md
+Il reste une seule étape :
+👉 activer GitHub Pages sur la branche gh-pages générée par MkDocs.
 
----
+Voici la procédure exacte :
 
-## 🧪 Tests
+🔧 Étape 1 — Ajouter la configuration de déploiement MkDocs
+Dans mkdocs.yml, ajouter :
 
-Les tests se trouvent dans :
+yaml
+site_url: https://ericboichut70-stack.github.io/quant_system/
+(Tu l’as déjà.)
 
-tests/
+🔧 Étape 2 — Installer le plugin de déploiement (si tu veux automatiser)
+Code
+pip install mkdocs ghp-import
+🔧 Étape 3 — Générer et pousser la documentation
+Depuis la racine :
 
-Exécution :
+Code
+mkdocs build
+ghp-import -n -p site
+Cela :
 
-pytest
+génère le site dans site/
 
----
+crée la branche gh-pages
 
-## 🧩 Contribution
+pousse automatiquement sur GitHub
 
-Voir :
+🔧 Étape 4 — Activer GitHub Pages
+Sur GitHub :
 
-docs/reference/how_to_contribute.md
+Settings
 
----
+Pages
 
-## 📜 Licence
+Source → gh-pages
 
-Ce projet est distribué sous licence **CC BY‑NC‑ND 4.0**.
+Folder → root
 
-Vous êtes autorisé à :
+Save
 
-- lire le code  
-- l’utiliser pour un usage personnel  
-- le partager tel quel, avec attribution  
+Ton site sera disponible à :
 
-Vous n’êtes pas autorisé à :
-
-- l’utiliser à des fins commerciales  
-- le modifier  
-- le redistribuer sous une forme modifiée  
-- l’intégrer dans un produit ou service  
-
-Texte complet de la licence :  
-
-Full legal text: <https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode>
-
----
-
-## 🚀 Lancer rapidement
-
-```powershell
-cd <chemin_du_projet>
-streamlit run main.py
+Code
+https://ericboichut70-stack.github.io/quant_system/
