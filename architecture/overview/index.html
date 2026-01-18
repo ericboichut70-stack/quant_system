@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#architecture-vue-densemble" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -283,6 +288,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vue d’ensemble
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -300,6 +325,69 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objectifs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objectifs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#structure-generale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structure générale
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#composants-principaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Composants principaux
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-completer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        À compléter
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -479,7 +567,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quant_engine/quant_signals.md" class="md-nav__link">
+      <a href="../../quant_engine/quant_signals/" class="md-nav__link">
         
   
   
@@ -535,7 +623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quant_engine/risk.md" class="md-nav__link">
+      <a href="../../quant_engine/risk/" class="md-nav__link">
         
   
   
@@ -591,7 +679,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quant_engine/ml.md" class="md-nav__link">
+      <a href="../../quant_engine/ml/" class="md-nav__link">
         
   
   
@@ -811,7 +899,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/api_reference.md" class="md-nav__link">
+      <a href="../../reference/api_reference/" class="md-nav__link">
         
   
   
@@ -839,7 +927,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/config_reference.md" class="md-nav__link">
+      <a href="../../reference/config_reference/" class="md-nav__link">
         
   
   
@@ -867,7 +955,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/indicators_pivots.md" class="md-nav__link">
+      <a href="../../reference/indicators_pivots/" class="md-nav__link">
         
   
   
@@ -912,6 +1000,60 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objectifs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objectifs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#structure-generale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structure générale
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#composants-principaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Composants principaux
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-completer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        À compléter
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -928,9 +1070,30 @@
 
 
 
-  <h1>Vue d’ensemble</h1>
-
-
+<h1 id="architecture-vue-densemble">Architecture — Vue d’ensemble</h1>
+<p>Cette page présente la structure générale du système Quant System v3.</p>
+<h2 id="objectifs">Objectifs</h2>
+<ul>
+<li>Décrire les composants principaux</li>
+<li>Montrer les interactions entre modules</li>
+<li>Donner une vision claire du fonctionnement global</li>
+</ul>
+<h2 id="structure-generale">Structure générale</h2>
+<p>Le système est organisé autour d’un pipeline modulaire composé de 12 stages indépendants.</p>
+<h2 id="composants-principaux">Composants principaux</h2>
+<ul>
+<li>Pipeline v3</li>
+<li>Modules quantitatifs</li>
+<li>Backtest event-driven</li>
+<li>Export structuré</li>
+<li>Intégration ML</li>
+</ul>
+<h2 id="a-completer">À compléter</h2>
+<ul>
+<li>Diagrammes</li>
+<li>Détails des dépendances</li>
+<li>Flux de données</li>
+</ul>
 
 
 

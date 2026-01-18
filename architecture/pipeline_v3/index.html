@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#pipeline-v3-description-complete" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -311,6 +316,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pipeline v3
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -328,6 +353,69 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objectifs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objectifs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemple-dexecution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exemple d’exécution
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-completer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        À compléter
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -479,7 +567,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quant_engine/quant_signals.md" class="md-nav__link">
+      <a href="../../quant_engine/quant_signals/" class="md-nav__link">
         
   
   
@@ -535,7 +623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quant_engine/risk.md" class="md-nav__link">
+      <a href="../../quant_engine/risk/" class="md-nav__link">
         
   
   
@@ -591,7 +679,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quant_engine/ml.md" class="md-nav__link">
+      <a href="../../quant_engine/ml/" class="md-nav__link">
         
   
   
@@ -811,7 +899,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/api_reference.md" class="md-nav__link">
+      <a href="../../reference/api_reference/" class="md-nav__link">
         
   
   
@@ -839,7 +927,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/config_reference.md" class="md-nav__link">
+      <a href="../../reference/config_reference/" class="md-nav__link">
         
   
   
@@ -867,7 +955,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/indicators_pivots.md" class="md-nav__link">
+      <a href="../../reference/indicators_pivots/" class="md-nav__link">
         
   
   
@@ -912,6 +1000,60 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objectifs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objectifs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemple-dexecution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exemple d’exécution
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-completer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        À compléter
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -928,9 +1070,39 @@
 
 
 
-  <h1>Pipeline v3</h1>
-
-
+<h1 id="pipeline-v3-description-complete">Pipeline v3 — Description complète</h1>
+<p>Le pipeline v3 est composé de 12 stages exécutés séquentiellement.</p>
+<h2 id="objectifs">Objectifs</h2>
+<ul>
+<li>Nettoyer les données</li>
+<li>Construire les indicateurs</li>
+<li>Générer les signaux</li>
+<li>Exécuter la stratégie</li>
+<li>Calculer les métriques</li>
+<li>Exporter les résultats</li>
+</ul>
+<h2 id="stages">Stages</h2>
+<ol>
+<li>data  </li>
+<li>preprocess  </li>
+<li>multi_ut  </li>
+<li>indicators  </li>
+<li>quant  </li>
+<li>composite  </li>
+<li>strategy  </li>
+<li>risk  </li>
+<li>backtest  </li>
+<li>export  </li>
+</ol>
+<h2 id="exemple-dexecution">Exemple d’exécution</h2>
+<p>```bash
+python main_pipeline_v3.py</p>
+<h2 id="a-completer">À compléter</h2>
+<ul>
+<li>Paramètres de chaque stage</li>
+<li>Flux détaillé</li>
+<li>Diagrammes</li>
+</ul>
 
 
 
