@@ -938,18 +938,87 @@
 
 
 <h1 id="workflow">Workflow</h1>
-<p>Étapes principales
-Préparer les données</p>
+<p>Objectif
+Décrire le déroulement complet d’une session de travail avec Quant System v3.
+Cette page explique comment utiliser le moteur, depuis la préparation des données jusqu’à l’analyse des résultats.</p>
+<p>Elle sert de guide rapide pour exécuter le pipeline dans de bonnes conditions.</p>
+<p>Vue d’ensemble
+Le workflow standard suit cinq étapes :</p>
+<p>Préparer l’environnement</p>
+<p>Configurer les paramètres</p>
 <p>Lancer le pipeline</p>
-<p>Analyser les exports</p>
-<p>À compléter
-Workflow avancéWorkflow</p>
-<p>Étapes principales
-Préparer les données</p>
-<p>Lancer le pipeline</p>
-<p>Analyser les exports</p>
-<p>À compléter
-Workflow avancé</p>
+<p>Examiner les résultats</p>
+<p>Ajuster et itérer</p>
+<p>Ce cycle permet d’explorer, tester et améliorer les stratégies de manière structurée.</p>
+<ol>
+<li>Préparer l’environnement</li>
+</ol>
+<p>Avant toute exécution :</p>
+<p>activer l’environnement virtuel</p>
+<p>vérifier que les dépendances sont installées</p>
+<p>s’assurer que les données nécessaires sont présentes dans data/</p>
+<p>vérifier que les fichiers de configuration sont cohérents</p>
+<p>Exemple :</p>
+<p>Code
+venv\Scripts\activate</p>
+<ol>
+<li>Configurer les paramètres</li>
+</ol>
+<p>Les paramètres du pipeline sont définis dans le dossier config/.</p>
+<p>On y trouve :</p>
+<p>les symboles à analyser</p>
+<p>les timeframes</p>
+<p>les indicateurs à activer</p>
+<p>les règles de stratégie</p>
+<p>les paramètres de risque</p>
+<p>les options du backtest</p>
+<p>Chaque fichier YAML correspond à une partie du pipeline.</p>
+<ol>
+<li>Lancer le pipeline</li>
+</ol>
+<p>Le pipeline complet s’exécute via :</p>
+<p>Code
+python main_pipeline_v3.py
+Le moteur :</p>
+<p>charge les données</p>
+<p>applique les transformations</p>
+<p>calcule les indicateurs</p>
+<p>génère les signaux</p>
+<p>applique la stratégie</p>
+<p>gère le risque</p>
+<p>exécute le backtest</p>
+<p>produit les exports</p>
+<p>L’exécution est séquentielle et reproductible.</p>
+<ol>
+<li>Examiner les résultats</li>
+</ol>
+<p>Les résultats sont générés dans le dossier exports/.</p>
+<p>On y trouve :</p>
+<p>les trades</p>
+<p>les métriques</p>
+<p>l’equity curve</p>
+<p>les logs</p>
+<p>les fichiers CSV et JSON</p>
+<p>Ces éléments permettent d’évaluer la performance de la stratégie.</p>
+<ol>
+<li>Ajuster et itérer</li>
+</ol>
+<p>Après analyse des résultats, on peut :</p>
+<p>modifier les paramètres</p>
+<p>activer ou désactiver des indicateurs</p>
+<p>ajuster les règles de stratégie</p>
+<p>changer les limites de risque</p>
+<p>tester un autre symbole</p>
+<p>modifier la période d’analyse</p>
+<p>Le workflow est conçu pour être rapide, simple et expérimental.</p>
+<p>Résumé
+Le workflow standard est :</p>
+<p>Préparation
+→ Configuration
+→ Exécution
+→ Analyse
+→ Ajustements</p>
+<p>Ce cycle constitue la base du développement quantitatif dans Quant System v3.</p>
 
 
 
