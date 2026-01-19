@@ -938,14 +938,60 @@
 
 
 <h1 id="quant-engine-risque">Quant Engine — Risque</h1>
+<p>Objectif du module
+Le module risk applique les règles de gestion du risque aux décisions produites par la stratégie.
+Il transforme une intention de trading en une position contrôlée, sécurisée et dimensionnée.</p>
+<p>Il répond à la question :</p>
+<p>« Comment entrer en position sans dépasser les limites de risque ? »</p>
 <p>Rôle du module
-Gérer l’exposition, le sizing et les limites de risque.</p>
-<p>Fonctions
-Stop-loss</p>
-<p>Take-profit</p>
-<p>Position sizing</p>
-<p>À compléter
-Modèles avancés</p>
+Le module risk :</p>
+<p>calcule la taille de position</p>
+<p>applique les stops</p>
+<p>applique les take‑profits</p>
+<p>limite l’exposition</p>
+<p>neutralise les positions dangereuses</p>
+<p>prépare les ordres pour le backtest</p>
+<p>Il agit comme un filtre de sécurité entre la stratégie et le moteur d’exécution.</p>
+<p>Composants principaux</p>
+<ol>
+<li>Position sizing</li>
+</ol>
+<p>Détermine la taille de position en fonction de :</p>
+<p>la volatilité</p>
+<p>le capital</p>
+<p>le risque par trade</p>
+<p>les contraintes de la stratégie</p>
+<ol>
+<li>Stop‑loss</li>
+</ol>
+<p>Définit le niveau de perte maximale acceptable.</p>
+<ol>
+<li>Take‑profit</li>
+</ol>
+<p>Définit le niveau de gain où la position doit être clôturée.</p>
+<ol>
+<li>Limites d’exposition</li>
+</ol>
+<p>Empêche :</p>
+<p>les positions trop grandes</p>
+<p>les positions trop fréquentes</p>
+<p>les inversions trop rapides</p>
+<ol>
+<li>Neutralisation</li>
+</ol>
+<p>Si les conditions deviennent dangereuses, le module peut forcer une sortie.</p>
+<p>Structure interne
+Le module ajoute au contexte :</p>
+<p>risk_position_size</p>
+<p>risk_stop</p>
+<p>risk_takeprofit</p>
+<p>risk_action</p>
+<p>Ces informations sont ensuite utilisées par le backtest.</p>
+<p>Flux interne
+Stratégie
+→ risk (position sizing + stops + limites)
+→ ordres sécurisés
+→ backtest</p>
 
 
 
