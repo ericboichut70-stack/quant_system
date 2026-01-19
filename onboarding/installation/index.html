@@ -938,13 +938,38 @@
 
 
 <h1 id="installation">Installation</h1>
+<p>Objectif
+Expliquer comment installer et préparer l’environnement pour exécuter Quant System v3.
+Cette page permet à un utilisateur de démarrer rapidement, sans ambiguïté.</p>
 <p>Prérequis
-Python 3.10+</p>
+Python 3.10 ou supérieur</p>
 <p>pip</p>
-<p>Installation
-pip install -r requirements.txt</p>
-<p>À compléter
-Installation GPU</p>
+<p>git</p>
+<p>un environnement virtuel (recommandé)</p>
+<p>Cloner le projet
+Code
+git clone <a href="https://github.com/ericboichut70-stack/quant_system.git">https://github.com/ericboichut70-stack/quant_system.git</a>
+cd quant_system
+Créer un environnement virtuel
+Code
+python -m venv venv
+source venv/bin/activate   # Linux / macOS
+venv\Scripts\activate      # Windows
+Installer les dépendances
+Code
+pip install -r requirements.txt
+Vérifier l’installation
+Code
+python main_pipeline_v3.py
+Si le pipeline s’exécute sans erreur, l’installation est correcte.</p>
+<p>Structure minimale attendue
+Le projet doit contenir :</p>
+<p>pipeline/</p>
+<p>quant_engine/</p>
+<p>config/</p>
+<p>data/</p>
+<p>docs/</p>
+<p>main_pipeline_v3.py</p>
 
 
 
