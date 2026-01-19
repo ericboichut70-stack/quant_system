@@ -938,13 +938,94 @@
 
 
 <h1 id="quant-engine-machine-learning">Quant Engine — Machine Learning</h1>
+<p>Objectif du module
+Le module Machine Learning prépare l’intégration future de modèles prédictifs dans le moteur quantitatif.
+Il n’est pas encore actif dans la version actuelle, mais il définit :</p>
+<p>la structure d’accueil des modèles</p>
+<p>les points d’entrée dans le pipeline</p>
+<p>les formats de données attendus</p>
+<p>les règles d’interprétation des prédictions</p>
+<p>Il répond à la question :</p>
+<p>« Comment intégrer un modèle ML dans un pipeline quantitatif déjà structuré ? »</p>
 <p>Rôle du module
-Préparer les features et intégrer des modèles ML.</p>
-<p>Composants
-Feature engineering</p>
-<p>Sélection de modèles</p>
-<p>À compléter
-Pipelines ML complets</p>
+Le module ML a pour vocation de :</p>
+<p>charger un modèle entraîné</p>
+<p>préparer les features nécessaires</p>
+<p>produire une prédiction exploitable</p>
+<p>transmettre cette prédiction au module quant ou strategy</p>
+<p>rester totalement optionnel dans le pipeline</p>
+<p>Il doit fonctionner sans casser la logique existante.</p>
+<p>Approche générale
+L’intégration ML suit trois principes :</p>
+<ol>
+<li>Isolation</li>
+</ol>
+<p>Le modèle ML ne doit pas modifier les modules existants.
+Il agit comme une couche additionnelle.</p>
+<ol>
+<li>Compatibilité</li>
+</ol>
+<p>Les prédictions doivent être compatibles avec :</p>
+<p>les signaux quantitatifs</p>
+<p>les règles de stratégie</p>
+<p>le moteur de risque</p>
+<ol>
+<li>Extensibilité</li>
+</ol>
+<p>Le module doit pouvoir accueillir :</p>
+<p>des modèles statistiques</p>
+<p>des modèles de régression</p>
+<p>des classifieurs</p>
+<p>des réseaux neuronaux</p>
+<p>des modèles séquentiels (LSTM, Transformers)</p>
+<p>Types de modèles envisagés</p>
+<ol>
+<li>Modèles de classification</li>
+</ol>
+<p>Prédire un mouvement haussier ou baissier.
+Exemples :</p>
+<p>logistic regression</p>
+<p>random forest</p>
+<p>gradient boosting</p>
+<ol>
+<li>Modèles de régression</li>
+</ol>
+<p>Prédire un retour attendu ou une amplitude.
+Exemples :</p>
+<p>régression linéaire</p>
+<p>XGBoost</p>
+<p>réseaux neuronaux</p>
+<ol>
+<li>Modèles séquentiels</li>
+</ol>
+<p>Prédire des patterns temporels complexes.
+Exemples :</p>
+<p>LSTM</p>
+<p>GRU</p>
+<p>Transformers</p>
+<p>Intégration dans le pipeline
+Le module ML peut intervenir à deux niveaux :</p>
+<p>Option A — Avant les signaux
+Le modèle produit une prédiction brute, utilisée comme feature supplémentaire.</p>
+<p>Option B — Après les signaux
+Le modèle produit une décision ou un score directement exploitable par la stratégie.</p>
+<p>Les deux approches sont compatibles.</p>
+<p>Structure interne
+Le module ML pourra fournir :</p>
+<p>ml_features</p>
+<p>ml_prediction</p>
+<p>ml_score</p>
+<p>ml_confidence</p>
+<p>Ces éléments seront ajoutés au contexte du pipeline.</p>
+<p>Flux interne
+Données
+→ indicateurs
+→ features ML
+→ modèle ML
+→ prédiction
+→ signaux / stratégie
+→ risque
+→ backtest</p>
 
 
 
