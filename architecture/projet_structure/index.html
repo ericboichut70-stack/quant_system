@@ -938,26 +938,79 @@
 
 
 <h1 id="structure-du-projet">Structure du projet</h1>
-<p>Cette page décrit l’organisation des fichiers et dossiers du projet.</p>
-<p>Arborescence
+<p>Objectif de cette page
+Présenter l’organisation complète du projet Quant System v3, dossier par dossier, en expliquant le rôle de chaque composant.
+Cette page sert de référence pour comprendre où se trouvent :</p>
+<p>le pipeline,</p>
+<p>les modules quantitatifs,</p>
+<p>les configurations,</p>
+<p>les exports,</p>
+<p>les utilitaires,</p>
+<p>la documentation.</p>
+<p>Arborescence générale
 quant_system
 ├── pipeline
 ├── config
 ├── data
 ├── indicators
+├── quant
 ├── strategy
+├── risk
+├── backtest
 ├── utils
 ├── tests
 ├── exports
 ├── docs
 └── main_pipeline_v3.py</p>
-<p>Principes
-Modularité</p>
-<p>Séparation des responsabilités</p>
-<p>Extensibilité</p>
-<p>Documentation intégrée</p>
-<p>À compléter
-Description détaillée de chaque dossier</p>
+<p>Description des dossiers
+pipeline
+Contient les 12 stages du pipeline v3.
+Chaque stage est un module indépendant exécuté séquentiellement.</p>
+<p>config
+Fichiers YAML définissant les paramètres globaux :</p>
+<p>symboles</p>
+<p>timeframes</p>
+<p>indicateurs</p>
+<p>stratégie</p>
+<p>risque</p>
+<p>backtest</p>
+<p>data
+Sources de données brutes (CSV, OHLC).
+Peut être remplacé par des connecteurs externes.</p>
+<p>indicators
+Calcul des indicateurs techniques et quantitatifs.
+Chaque indicateur est une fonction isolée.</p>
+<p>quant
+Génération des signaux quantitatifs à partir des indicateurs.</p>
+<p>strategy
+Décisions de trading basées sur les signaux composites.</p>
+<p>risk
+Gestion du risque :</p>
+<p>position sizing</p>
+<p>stops</p>
+<p>limites d’exposition</p>
+<p>backtest
+Moteur event‑driven simulant l’exécution des ordres.</p>
+<p>utils
+Fonctions utilitaires :</p>
+<p>logs</p>
+<p>timers</p>
+<p>helpers</p>
+<p>outils de debug</p>
+<p>tests
+Tests unitaires et fonctionnels.</p>
+<p>exports
+Résultats produits par le pipeline :</p>
+<p>CSV</p>
+<p>JSON</p>
+<p>graphiques</p>
+<p>logs</p>
+<p>docs
+Documentation MkDocs Material.</p>
+<p>Fichier principal
+main_pipeline_v3.py
+Point d’entrée du pipeline.
+Orchestre l’exécution des stages dans l’ordre défini.</p>
 
 
 

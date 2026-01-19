@@ -938,16 +938,22 @@
 
 
 <h1 id="pipeline-v3-description-complete">Pipeline v3 — Description complète</h1>
-<p>Le pipeline v3 est composé de 12 stages exécutés séquentiellement.</p>
-<p>Objectifs
-Nettoyer les données</p>
-<p>Construire les indicateurs</p>
-<p>Générer les signaux</p>
-<p>Exécuter la stratégie</p>
-<p>Calculer les métriques</p>
-<p>Exporter les résultats</p>
-<p>Stages
-data</p>
+<p>Objectif du pipeline
+Le pipeline v3 est le cœur opérationnel du moteur quantitatif.
+Il orchestre l’ensemble des étapes nécessaires pour transformer des données brutes en résultats exploitables :</p>
+<p>préparation des données</p>
+<p>construction des indicateurs</p>
+<p>génération des signaux</p>
+<p>exécution de la stratégie</p>
+<p>gestion du risque</p>
+<p>simulation du backtest</p>
+<p>export des résultats</p>
+<p>Chaque étape est indépendante, modulaire et remplaçable.</p>
+<p>Structure générale
+Le pipeline est composé de 12 stages exécutés séquentiellement.
+Chaque stage reçoit un contexte, le modifie, puis le transmet au suivant.</p>
+<p>Les stages sont :</p>
+<p>data</p>
 <p>preprocess</p>
 <p>multi_ut</p>
 <p>indicators</p>
@@ -957,12 +963,99 @@ data</p>
 <p>risk</p>
 <p>backtest</p>
 <p>export</p>
+<p>Chaque stage correspond à un module Python dédié dans pipeline/.</p>
+<p>Description détaillée des stages</p>
+<ol>
+<li>data</li>
+</ol>
+<p>Chargement des données brutes (CSV, OHLC, sources externes).
+Nettoyage minimal, normalisation des colonnes, vérification des types.</p>
+<ol>
+<li>preprocess</li>
+</ol>
+<p>Traitements préparatoires :</p>
+<p>gestion des trous</p>
+<p>alignement temporel</p>
+<p>filtrage</p>
+<p>normalisation optionnelle</p>
+<ol>
+<li>multi_ut</li>
+</ol>
+<p>Construction des unités de temps multiples (M1 → M5 → M15 → H1).
+Synchronisation des timeframes.</p>
+<ol>
+<li>indicators</li>
+</ol>
+<p>Calcul des indicateurs techniques et quantitatifs :</p>
+<p>tendances</p>
+<p>volatilité</p>
+<p>momentum</p>
+<p>signaux statistiques</p>
+<ol>
+<li>quant</li>
+</ol>
+<p>Transformation des indicateurs en signaux quantitatifs :</p>
+<p>signaux directionnels</p>
+<p>signaux probabilistes</p>
+<p>signaux de force</p>
+<ol>
+<li>composite</li>
+</ol>
+<p>Fusion des signaux pour produire un signal final cohérent.
+Pondération, filtrage, agrégation.</p>
+<ol>
+<li>strategy</li>
+</ol>
+<p>Décisions de trading basées sur les signaux composites :</p>
+<p>entrée</p>
+<p>sortie</p>
+<p>maintien de position</p>
+<ol>
+<li>risk</li>
+</ol>
+<p>Application des règles de gestion du risque :</p>
+<p>position sizing</p>
+<p>stop-loss</p>
+<p>take-profit</p>
+<p>limites d’exposition</p>
+<ol>
+<li>backtest</li>
+</ol>
+<p>Simulation event-driven :</p>
+<p>exécution des ordres</p>
+<p>génération des trades</p>
+<p>calcul des métriques</p>
+<p>equity curve</p>
+<ol>
+<li>export</li>
+</ol>
+<p>Production des résultats :</p>
+<p>CSV</p>
+<p>JSON</p>
+<p>graphiques</p>
+<p>logs</p>
+<p>rapports</p>
 <p>Exemple d’exécution
 python main_pipeline_v3.py</p>
-<p>À compléter
-Paramètres de chaque stage</p>
-<p>Flux détaillé</p>
-<p>Diagrammes</p>
+<p>Le pipeline s’exécute du stage 1 au stage 10, en construisant progressivement un contexte complet.</p>
+<p>Flux de données (résumé)
+Données brutes
+→ preprocess
+→ multi‑UT
+→ indicateurs
+→ signaux
+→ stratégie
+→ risque
+→ backtest
+→ exports</p>
+<p>Chaque étape enrichit le contexte sans écraser les données précédentes.</p>
+<p>Points forts du pipeline v3
+architecture modulaire</p>
+<p>séparation claire des responsabilités</p>
+<p>extensibilité (ajout de nouveaux stages)</p>
+<p>lisibilité du flux</p>
+<p>compatibilité future avec ML</p>
+<p>instrumentation facile pour le debugging</p>
 
 
 
