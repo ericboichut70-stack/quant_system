@@ -938,23 +938,83 @@
 
 
 <h1 id="architecture-vue-densemble">Architecture — Vue d’ensemble</h1>
-<p>Cette page présente la structure générale du système Quant System v3.</p>
-<p>Objectifs
-Décrire les composants principaux</p>
-<p>Montrer les interactions entre modules</p>
-<p>Donner une vision claire du fonctionnement global</p>
-<p>Structure générale
-Le système est organisé autour d’un pipeline modulaire composé de 12 stages indépendants.</p>
-<p>Composants principaux
-Pipeline v3</p>
-<p>Modules quantitatifs</p>
-<p>Backtest event-driven</p>
-<p>Export structuré</p>
-<p>Intégration ML</p>
-<p>À compléter
-Diagrammes</p>
-<p>Flux de données</p>
-<p>Dépendances</p>
+<p>Objectif de cette page
+Présenter la vision globale du système Quant System v3 :</p>
+<p>sa philosophie</p>
+<p>ses composants principaux</p>
+<p>la logique du pipeline</p>
+<p>les interactions entre modules</p>
+<p>la manière dont l’ensemble forme un moteur quantitatif cohérent</p>
+<p>Cette page sert de point d’entrée pour comprendre comment le système fonctionne dans son ensemble.</p>
+<p>Vision générale
+Quant System v3 est un moteur quantitatif modulaire conçu pour :</p>
+<p>analyser des données de marché</p>
+<p>construire des indicateurs</p>
+<p>générer des signaux</p>
+<p>exécuter des stratégies</p>
+<p>simuler des backtests</p>
+<p>produire des exports structurés</p>
+<p>préparer l’intégration de modèles ML</p>
+<p>L’architecture repose sur trois principes fondamentaux :</p>
+<p>Modularité<br />
+Chaque composant est indépendant, remplaçable, testable.</p>
+<p>Pipeline séquentiel<br />
+Le système s’exécute en 12 étapes claires, du chargement des données à l’export final.</p>
+<p>Extensibilité<br />
+Le moteur est conçu pour accueillir de nouveaux modules, stratégies, indicateurs ou modèles ML.</p>
+<p>Structure globale du système
+Le projet est organisé autour de plusieurs couches :</p>
+<ol>
+<li>
+<p>Données
+Chargement, nettoyage, validation, multi‑UT.</p>
+</li>
+<li>
+<p>Indicateurs
+Calcul des features techniques et quantitatives.</p>
+</li>
+<li>
+<p>Signaux
+Transformation des indicateurs en signaux exploitables.</p>
+</li>
+<li>
+<p>Stratégie
+Décisions de trading basées sur les signaux.</p>
+</li>
+<li>
+<p>Risque
+Position sizing, stops, gestion de l’exposition.</p>
+</li>
+<li>
+<p>Backtest
+Simulation event‑driven, génération des trades et métriques.</p>
+</li>
+<li>
+<p>Exports
+Production des résultats sous forme de CSV, JSON, graphiques.</p>
+</li>
+</ol>
+<p>Le pipeline v3
+Le cœur du système est un pipeline composé de 12 stages :</p>
+<p>data</p>
+<p>preprocess</p>
+<p>multi_ut</p>
+<p>indicators</p>
+<p>quant</p>
+<p>composite</p>
+<p>strategy</p>
+<p>risk</p>
+<p>backtest</p>
+<p>export</p>
+<p>Chaque stage est indépendant et peut être remplacé ou étendu.</p>
+<p>Interactions entre modules
+Les données alimentent les indicateurs</p>
+<p>Les indicateurs alimentent les signaux</p>
+<p>Les signaux alimentent la stratégie</p>
+<p>La stratégie génère des ordres</p>
+<p>Le backtest exécute les ordres</p>
+<p>Les exports synthétisent les résultats</p>
+<p>Cette chaîne garantit une séparation claire des responsabilités.</p>
 
 
 
