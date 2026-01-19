@@ -938,15 +938,66 @@
 
 
 <h1 id="quant-engine-signaux-quantitatifs">Quant Engine — Signaux quantitatifs</h1>
-<p>Rôle du module
-Transformer les indicateurs en signaux exploitables.</p>
-<p>Types de signaux
-Directionnels</p>
-<p>Probabilistes</p>
-<p>Sorties
-Colonnes signal_*</p>
-<p>À compléter
-Méthodes de génération</p>
+<p>Objectif du module
+Transformer les indicateurs techniques et statistiques en signaux exploitables par la stratégie.
+Les signaux quantitatifs constituent la couche intermédiaire entre :</p>
+<p>les indicateurs (inputs bruts)</p>
+<p>la stratégie (décisions de trading)</p>
+<p>Ils permettent de structurer l’information, de la normaliser et de la rendre actionnable.</p>
+<p>Rôle des signaux
+Les signaux quantitatifs servent à :</p>
+<p>détecter des conditions de marché</p>
+<p>mesurer la force d’un mouvement</p>
+<p>identifier des zones de probabilité</p>
+<p>filtrer le bruit</p>
+<p>préparer la décision stratégique</p>
+<p>Ils sont conçus pour être simples, robustes, combinables.</p>
+<p>Types de signaux</p>
+<ol>
+<li>Signaux directionnels</li>
+</ol>
+<p>Indiquent un biais haussier ou baissier.
+Exemples :</p>
+<p>tendance positive</p>
+<p>momentum croissant</p>
+<p>cassure de niveau</p>
+<ol>
+<li>Signaux de force</li>
+</ol>
+<p>Mesurent l’intensité d’un mouvement.
+Exemples :</p>
+<p>volatilité relative</p>
+<p>amplitude normalisée</p>
+<p>distance à une moyenne</p>
+<ol>
+<li>Signaux probabilistes</li>
+</ol>
+<p>Expriment une probabilité ou un score.
+Exemples :</p>
+<p>probabilité de continuation</p>
+<p>probabilité de retournement</p>
+<p>score composite</p>
+<p>Structure des signaux
+Chaque signal est ajouté au DataFrame sous la forme :</p>
+<p>signal_nom_du_signal</p>
+<p>Exemples :</p>
+<p>signal_trend</p>
+<p>signal_momentum</p>
+<p>signal_volatility</p>
+<p>signal_breakout</p>
+<p>Les signaux sont toujours :</p>
+<p>normalisés</p>
+<p>cohérents</p>
+<p>compatibles entre eux</p>
+<p>utilisables par la stratégie</p>
+<p>Flux interne
+Indicateurs
+→ transformation
+→ normalisation
+→ signaux directionnels
+→ signaux de force
+→ signaux probabilistes
+→ signaux composites (stage suivant)</p>
 
 
 
