@@ -938,13 +938,94 @@
 
 
 <h1 id="conventions">Conventions</h1>
-<p>Nommage
-snake_case pour le code</p>
-<p>kebab-case pour les fichiers</p>
-<p>Structure
-Modules courts</p>
-<p>À compléter
-Conventions de commit</p>
+<p>Objectif
+Définir les conventions utilisées dans Quant System v3 pour garantir :</p>
+<p>une structure cohérente</p>
+<p>une lisibilité durable</p>
+<p>une maintenance facilitée</p>
+<p>une intégration fluide de nouveaux modules</p>
+<p>Ces conventions s’appliquent à l’ensemble du projet : code, configuration, documentation et exports.</p>
+<p>Conventions de nommage
+Modules Python
+Les modules utilisent un nommage simple et explicite :</p>
+<p>pipeline</p>
+<p>indicators</p>
+<p>quant</p>
+<p>strategy</p>
+<p>risk</p>
+<p>backtest</p>
+<p>utils</p>
+<p>Chaque module correspond à une responsabilité unique.</p>
+<p>Fichiers
+Les fichiers Python utilisent le format :</p>
+<p>nom_du_fichier.py</p>
+<p>Exemples :</p>
+<p>data_loader.py</p>
+<p>trend_indicator.py</p>
+<p>risk_manager.py</p>
+<p>Variables
+Les variables suivent le format :</p>
+<p>snake_case</p>
+<p>Exemples :</p>
+<p>current_position</p>
+<p>signal_strength</p>
+<p>stop_loss_level</p>
+<p>Colonnes du DataFrame
+Les colonnes ajoutées au contexte suivent un préfixe clair :</p>
+<p>indicator_…</p>
+<p>signal_…</p>
+<p>quant_…</p>
+<p>strategy_…</p>
+<p>risk_…</p>
+<p>backtest_…</p>
+<p>Cela permet d’identifier immédiatement l’origine d’une donnée.</p>
+<p>Conventions de structure
+Organisation du code
+Chaque dossier correspond à une couche du moteur :</p>
+<p>pipeline : orchestration</p>
+<p>indicators : calcul des indicateurs</p>
+<p>quant : signaux quantitatifs</p>
+<p>strategy : décisions</p>
+<p>risk : gestion du risque</p>
+<p>backtest : exécution</p>
+<p>exports : résultats</p>
+<p>Cette séparation garantit une architecture modulaire.</p>
+<p>Configuration
+Les fichiers YAML dans config/ définissent :</p>
+<p>les symboles</p>
+<p>les timeframes</p>
+<p>les indicateurs</p>
+<p>la stratégie</p>
+<p>le risque</p>
+<p>le backtest</p>
+<p>Chaque fichier correspond à une partie du pipeline.</p>
+<p>Conventions de documentation
+Style
+La documentation utilise :</p>
+<p>des titres courts</p>
+<p>des sections claires</p>
+<p>des listes simples</p>
+<p>des explications concises</p>
+<p>Navigation
+Chaque page correspond à un concept unique.
+Aucune duplication de contenu.</p>
+<p>Numérotation
+Les listes numérotées utilisent toujours :</p>
+<p>Pour éviter les warnings MD029.</p>
+<p>Conventions d’exports
+Les résultats générés dans exports/ suivent une structure stable :</p>
+<p>trades.csv</p>
+<p>metrics.json</p>
+<p>equity_curve.csv</p>
+<p>logs/</p>
+<p>Chaque fichier est autonome et lisible.</p>
+<p>Résumé
+Les conventions garantissent :</p>
+<p>cohérence</p>
+<p>lisibilité</p>
+<p>modularité</p>
+<p>maintenabilité</p>
+<p>Elles constituent la base d’un projet professionnel et durable.</p>
 
 
 
