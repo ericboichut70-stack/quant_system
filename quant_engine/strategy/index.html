@@ -938,15 +938,70 @@
 
 
 <h1 id="quant-engine-strategie">Quant Engine — Stratégie</h1>
-<p>Rôle du module
-Convertir les signaux en décisions de trading.</p>
-<p>Entrées
-Signaux quantitatifs</p>
-<p>Sorties
-Ordres</p>
-<p>Positions</p>
-<p>À compléter
-Modèles de stratégie</p>
+<p>Objectif du module
+La stratégie transforme les signaux quantitatifs en décisions de trading.
+Elle constitue la couche décisionnelle du moteur, celle qui répond à la question :</p>
+<p>« Que fait-on maintenant ? »</p>
+<p>Elle s’appuie sur :</p>
+<p>les indicateurs</p>
+<p>les signaux directionnels</p>
+<p>les signaux de force</p>
+<p>les signaux probabilistes</p>
+<p>les signaux composites</p>
+<p>La stratégie ne calcule rien : elle interprète.</p>
+<p>Rôle de la stratégie
+La stratégie :</p>
+<p>lit les signaux</p>
+<p>applique des règles décisionnelles</p>
+<p>détermine les conditions d’entrée</p>
+<p>gère les conditions de sortie</p>
+<p>maintient ou inverse les positions</p>
+<p>prépare les ordres pour le backtest</p>
+<p>Elle agit comme un cerveau logique au-dessus des signaux.</p>
+<p>Types de décisions</p>
+<ol>
+<li>Entrée en position</li>
+</ol>
+<p>La stratégie décide d’entrer en position lorsque les signaux atteignent un seuil défini.
+Exemples :</p>
+<p>signal haussier fort</p>
+<p>momentum positif</p>
+<p>volatilité contrôlée</p>
+<ol>
+<li>Sortie de position</li>
+</ol>
+<p>La stratégie peut sortir d’une position lorsque :</p>
+<p>les signaux s’affaiblissent</p>
+<p>un retournement est détecté</p>
+<p>une condition de neutralisation est atteinte</p>
+<ol>
+<li>Maintien de position</li>
+</ol>
+<p>Si les signaux restent cohérents, la stratégie maintient la position ouverte.</p>
+<ol>
+<li>Inversion</li>
+</ol>
+<p>Dans certains cas, la stratégie peut inverser la position si les signaux changent brutalement de direction.</p>
+<p>Structure interne
+La stratégie produit une colonne :</p>
+<p>decision</p>
+<p>Avec des valeurs typiques :</p>
+<p>buy</p>
+<p>sell</p>
+<p>hold</p>
+<p>exit</p>
+<p>Ces décisions sont ensuite transmises au module risk.</p>
+<p>Flux interne
+Signaux
+→ règles décisionnelles
+→ décision (buy / sell / hold / exit)
+→ module risk</p>
+<p>Exemple de logique (conceptuel)
+Si le signal composite est supérieur à un seuil → buy</p>
+<p>Si le signal composite est inférieur à un seuil → sell</p>
+<p>Si aucun signal n’est suffisamment fort → hold</p>
+<p>Si un retournement est détecté → exit</p>
+<p>La stratégie reste volontairement simple pour être lisible, testable et extensible.</p>
 
 
 
