@@ -2,70 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/architecture/overview/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/architecture/pipeline_v3/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/architecture/projet_structure/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/onboarding/conventions/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/onboarding/installation/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/onboarding/workflow/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/quant_engine/backtest/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/quant_engine/data/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/quant_engine/indicators/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/quant_engine/ml/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/quant_engine/quant_signals/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/quant_engine/risk/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/quant_engine/strategy/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/reference/</loc>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/reference/api_reference/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/reference/config_reference/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/reference/exports_formats/</loc>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://ericboichut70-stack.github.io/quant_system/reference/indicators_pivots/</loc>
-         <lastmod>2026-01-19</lastmod>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/reference/modules_internes/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://ericboichut70-stack.github.io/quant_system/reference/pipeline_api/</loc>
+         <lastmod>2026-01-20</lastmod>
     </url>
 </urlset>
