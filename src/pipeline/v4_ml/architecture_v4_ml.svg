@@ -1,0 +1,105 @@
+<svg width="1000" height="650" viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .box {
+      fill: #ffffff;
+      stroke: #4a4a4a;
+      stroke-width: 1.4;
+      rx: 6;
+      ry: 6;
+    }
+    .title {
+      font-family: "Segoe UI", sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      fill: #1f4e79; /* Bleu institutionnel */
+      text-anchor: middle;
+    }
+    .subtitle {
+      font-family: "Segoe UI", sans-serif;
+      font-size: 11px;
+      fill: #444444;
+      text-anchor: middle;
+    }
+    .arrow {
+      stroke: #4a4a4a;
+      stroke-width: 1.4;
+      marker-end: url(#arrowhead);
+    }
+    .section-title {
+      font-family: "Segoe UI", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      fill: #1f4e79;
+      text-anchor: middle;
+    }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 6 3, 0 6" fill="#4a4a4a" />
+    </marker>
+  </defs>
+
+  <!-- Section titles -->
+  <text x="500" y="30" class="section-title">Architecture du module v4_ml</text>
+  <text x="250" y="80" class="section-title">Entraînement</text>
+  <text x="750" y="80" class="section-title">Inférence</text>
+
+  <!-- Training: train_model.py -->
+  <rect x="150" y="120" width="200" height="70" class="box" />
+  <text x="250" y="150" class="title">train_model.py</text>
+  <text x="250" y="170" class="subtitle">Entraînement + artefacts</text>
+
+  <!-- Training: parameter_optimizer.py -->
+  <rect x="150" y="230" width="200" height="70" class="box" />
+  <text x="250" y="260" class="title">parameter_optimizer.py</text>
+  <text x="250" y="280" class="subtitle">Optimisation (optionnel)</text>
+
+  <!-- Artifacts -->
+  <rect x="400" y="175" width="200" height="120" class="box" />
+  <text x="500" y="205" class="title">artifacts/</text>
+  <text x="500" y="225" class="subtitle">model.pkl · scaler.pkl</text>
+  <text x="500" y="245" class="subtitle">encoder.pkl · metadata.json</text>
+
+  <!-- Inference: pipeline_v4.py -->
+  <rect x="700" y="120" width="250" height="70" class="box" />
+  <text x="825" y="150" class="title">pipeline_v4.py</text>
+  <text x="825" y="170" class="subtitle">Orchestrateur ML v4</text>
+
+  <!-- Inference: ml_features.py -->
+  <rect x="700" y="230" width="250" height="70" class="box" />
+  <text x="825" y="260" class="title">ml_features.py</text>
+  <text x="825" y="280" class="subtitle">Construction des features</text>
+
+  <!-- Inference: ml_model.py -->
+  <rect x="700" y="340" width="250" height="70" class="box" />
+  <text x="825" y="370" class="title">ml_model.py</text>
+  <text x="825" y="390" class="subtitle">Chargement du modèle</text>
+
+  <!-- Inference: ml_postprocess.py -->
+  <rect x="700" y="450" width="250" height="70" class="box" />
+  <text x="825" y="480" class="title">ml_postprocess.py</text>
+  <text x="825" y="500" class="subtitle">Post‑traitement</text>
+
+  <!-- Inference: advanced_trading_indicator.py -->
+  <rect x="700" y="560" width="250" height="70" class="box" />
+  <text x="825" y="590" class="title">advanced_trading_indicator.py</text>
+  <text x="825" y="610" class="subtitle">Signaux hybrides</text>
+
+  <!-- Arrows training -> artifacts -->
+  <line x1="350" y1="155" x2="400" y2="200" class="arrow" />
+  <line x1="350" y1="265" x2="400" y2="240" class="arrow" />
+
+  <!-- Arrows artifacts -> inference -->
+  <line x1="600" y1="200" x2="700" y2="155" class="arrow" />
+  <line x1="600" y1="240" x2="700" y2="265" class="arrow" />
+  <line x1="600" y1="260" x2="700" y2="370" class="arrow" />
+
+  <!-- Vertical inference flow -->
+  <line x1="825" y1="190" x2="825" y2="230" class="arrow" />
+  <line x1="825" y1="300" x2="825" y2="340" class="arrow" />
+  <line x1="825" y1="410" x2="825" y2="450" class="arrow" />
+  <line x1="825" y1="520" x2="825" y2="560" class="arrow" />
+
+</svg>
